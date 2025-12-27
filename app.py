@@ -11,20 +11,22 @@ import fitz  # PyMuPDF
 from flask import flash
 from dotenv import load_dotenv
 from werkzeug.utils import secure_filename
+import hashlib
+from werkzeug.security import generate_password_hash, check_password_hash
+import mammoth  # Để đọc file .docx
 
 load_dotenv()
 app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'
 
-# Cấu hình thư mục upload
 UPLOAD_FOLDER = os.path.join('static', 'uploads')
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-api_key = os.environ.get("GOOGLE_API_KEY")  # ← SỬA DÒNG NÀY
+api_key = os.environ.get("GOOGLE_API_KEY") 
 if not api_key:  
     raise ValueError(" Thiếu GOOGLE_API_KEY trong file .env")
-genai.configure(api_key=api_key)  # ← SỬA DÒNG NÀY
+genai.configure(api_key=api_key)  
 model = genai.GenerativeModel("models/gemini-2.5-flash")
 analysis_model = model
 
@@ -44,9 +46,7 @@ os.makedirs(CLASS_ACTIVITY_IMAGES, exist_ok=True)
 # HỆ THỐNG KIỂM TRA CÓ GÌ PHẢI LO
 # ==========================================
 
-import hashlib
-from werkzeug.security import generate_password_hash, check_password_hash
-import mammoth  # Để đọc file .docx
+
 
 # File paths
 EXAM_USERS_FILE = os.path.join('data', 'exam_system_users.json')

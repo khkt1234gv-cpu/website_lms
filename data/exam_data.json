@@ -160,5 +160,733 @@
         "answer": "$(x; y) = (3; 2)$"
       }
     ]
+  },
+  "de4": {
+    "multiple_choice": [
+      {
+        "question": "Kết quả phép nhân $x(2x^2 + 1)$ là:",
+        "options": [
+          "$3x^2 + 1$",
+          "$3x^2 + x$",
+          "$2x^3 + x$",
+          "$2x^3 + 1$"
+        ],
+        "answer": "$2x^3 + x$"
+      },
+      {
+        "question": "Kết quả phép nhân $(xy - 1)(xy + 5)$ =",
+        "options": [
+          "$x^2y^2 + 4xy - 5$",
+          "$x^2y^2 + 4xy + 5$",
+          "$xy - 4xy - 5$",
+          "$x^2y^2 - 4xy - 5$"
+        ],
+        "answer": "$x^2y^2 + 4xy - 5$"
+      },
+      {
+        "question": "Tích $(2x - 3)(2x + 3)$ có kết quả bằng:",
+        "options": [
+          "$4x^2 + 12x + 9$",
+          "$4x^2 - 9$",
+          "$2x^2 - 3$",
+          "$4x^2 + 9$"
+        ],
+        "answer": "$4x^2 - 9$"
+      },
+      {
+        "question": "Điền vào chỗ trống: $\\left(\\frac{1}{2}x - y\\right)^2 = \\frac{1}{4}x^2 - ... + y^2$",
+        "options": [
+          "$2xy$",
+          "$xy$",
+          "$-2xy$",
+          "$\\frac{1}{2}xy$"
+        ],
+        "answer": "$xy$"
+      },
+      {
+        "question": "Rút gọn biểu thức $(a + b)^2 - (a - b)^2$ được kết quả là:",
+        "options": [
+          "$4ab$",
+          "$-4ab$",
+          "$0$",
+          "$2b^2$"
+        ],
+        "answer": "$4ab$"
+      },
+      {
+        "question": "Chọn câu \"Đúng\"",
+        "options": [
+          "$(x - 1)(x^2 + x + 1) = x^3 - 1$",
+          "$(x - 1)(x + 1) = 1 - x^2$",
+          "$(x + 1)(x - 1) = x^2 + 1$",
+          "$(x^2 + x + 1)(x - 1) = 1 - x^3$"
+        ],
+        "answer": "$(x - 1)(x^2 + x + 1) = x^3 - 1$"
+      },
+      {
+        "question": "Đa thức $5x^2 - 4x + 10xy - 8y$ phân tích thành nhân tử ta được:",
+        "options": [
+          "$(5x - 2y)(x + 4y)$",
+          "$(5x + 4)(x - 2y)$",
+          "$(x + 2y)(5x - 4)$",
+          "$(5x - 4)(x - 2y)$"
+        ],
+        "answer": "$(5x - 2y)(x + 4y)$"
+      },
+      {
+        "question": "Giá trị của đa thức $x^2 + 2xy + y^2$ tại $x = 9, y = 11$ là:",
+        "options": [
+          "$100$",
+          "$144$",
+          "$120$",
+          "$122$"
+        ],
+        "answer": "$100$"
+      },
+      {
+        "question": "Cho $2x(3x - 1) - 3x(2x - 3) = 11$. Kết quả $x$ bằng:",
+        "options": [
+          "$-\\frac{11}{7}$",
+          "$\\frac{7}{11}$",
+          "$1$",
+          "$\\frac{11}{7}$"
+        ],
+        "answer": "$\\frac{11}{7}$"
+      },
+      {
+        "question": "Rút gọn biểu thức $x(x - y) - y(x + y) + x^2 + y^2$ ta được:",
+        "options": [
+          "$2xy$",
+          "$2x^2$",
+          "$-2xy$",
+          "$2x(x - y)$"
+        ],
+        "answer": "$2x^2$"
+      }
+    ]
+  },
+  "de5": {
+    "multiple_choice": [
+      {
+        "question": "Trong các biểu thức sau, biểu thức nào là đơn thức?",
+        "options": [
+          "$\\sqrt{3}x^2y$",
+          "$x(y + 1)$",
+          "$1 - 2x$",
+          "$\\frac{5}{2x}$"
+        ],
+        "answer": "$\\sqrt{3}x^2y$"
+      },
+      {
+        "question": "Thu gọn đa thức $M = -x^2y^2 - 7xy^2 + x^2y^2 - 5xy^2$ ta được:",
+        "options": [
+          "$M = 2x^2y - 12xy^2$",
+          "$M = 12xy^2$",
+          "$M = -12xy^2$",
+          "$M = -x^2y - 2xy^2$"
+        ],
+        "answer": "$M = -12xy^2$"
+      },
+      {
+        "question": "Kết quả của phép tính nhân $5xy \\cdot \\left(2x^2y^2 - \\frac{1}{5}xy^2\\right)$ là:",
+        "options": [
+          "$10x^3y^4 - \\frac{1}{5}xy^2$",
+          "$10x^3y^4 - x^2y^3$",
+          "$9xy$",
+          "$10x^2y^3 - xy^2$"
+        ],
+        "answer": "$10x^3y^4 - x^2y^3$"
+      },
+      {
+        "question": "Khai triển hằng đẳng thức $(x + 2)^2$ được kết quả là:",
+        "options": [
+          "$x^2 - 4x + 4$",
+          "$x^2 - 2x + 4$",
+          "$x^2 + 4x + 4$",
+          "$x^2 + 2x + 4$"
+        ],
+        "answer": "$x^2 + 4x + 4$"
+      },
+      {
+        "question": "Giá trị của biểu thức $-9x^2 - 6x + 5$ tại $x = -\\frac{1}{3}$ là:",
+        "options": [
+          "$\\frac{1}{3}$",
+          "$-\\frac{1}{3}$",
+          "$-6$",
+          "$6$"
+        ],
+        "answer": "$6$"
+      },
+      {
+        "question": "Điều kiện xác định của phân thức $\\frac{xy + 5}{x^2 - 1}$ là:",
+        "options": [
+          "$x \\neq 1$",
+          "$x \\neq -1$",
+          "$x \\neq 2$",
+          "$x \\neq 1$ và $x \\neq -1$"
+        ],
+        "answer": "$x \\neq 1$ và $x \\neq -1$"
+      },
+      {
+        "question": "Kết quả phép tính $\\frac{a^2 + a}{a - 1} + \\frac{1 - 3a}{a - 1}$ với $a \\neq 1$ là:",
+        "options": [
+          "$\\frac{a^2 - 2}{a - 1}$",
+          "$\\frac{a^2 - 2a - 1}{a - 1}$",
+          "$a + 1$",
+          "$a - 1$"
+        ],
+        "answer": "$a - 1$"
+      },
+      {
+        "question": "Từ giác nào sau đây có hai đường chéo vừa bằng nhau vừa vuông góc:",
+        "options": [
+          "Hình bình hành",
+          "Hình thoi",
+          "Hình chữ nhật",
+          "Hình vuông"
+        ],
+        "answer": "Hình vuông"
+      },
+      {
+        "question": "Tứ giác DEGH là hình bình hành nếu:",
+        "options": [
+          "$DG = HE$",
+          "$DE = GH$ và $DE \\parallel GH$",
+          "$DE = GH$ hoặc $DH = EG$",
+          "$DE \\parallel GH$ hoặc $DH \\parallel EG$"
+        ],
+        "answer": "$DE = GH$ và $DE \\parallel GH$"
+      },
+      {
+        "question": "Hình chóp tạm giác đều và hình chóp tứ giác đều có chung đặc điểm nào sau đây?",
+        "options": [
+          "Đáy là tam giác đều;",
+          "Đáy là hình vuông;",
+          "Các cạnh bên bằng nhau;",
+          "Mặt bên là các tam giác đều."
+        ],
+        "answer": "Các cạnh bên bằng nhau;"
+      }
+    ]
+  },
+  "de6": {
+    "multiple_choice": [
+      {
+        "question": "Trong những biểu thức sau, biểu thức nào là đơn thức?",
+        "options": [
+          "$3 - 2xy$",
+          "$\\frac{1}{4}x^2(y - z^2)$",
+          "$-\\frac{1}{2}xy^2z^5$",
+          "$\\frac{2x}{3yz}$"
+        ],
+        "answer": "$-\\frac{1}{2}xy^2z^5$"
+      },
+      {
+        "question": "Biểu thức $4x^2 - 25y^2$ được viết dưới dạng tích là",
+        "options": [
+          "$(2x - 5y)(2x + 5y)$",
+          "$(4x - 5y)(4x + 5y)$",
+          "$(4x - 25y)(4x + 25y)$",
+          "$(2x - 25y)(2x + 25y)$"
+        ],
+        "answer": "$(2x - 5y)(2x + 5y)$"
+      },
+      {
+        "question": "Điều kiện xác định của phân thức $\\frac{M}{N}$ là:",
+        "options": [
+          "$M \\neq 0$",
+          "$N \\geq 0$",
+          "$N \\leq 0$",
+          "$N \\neq 0$"
+        ],
+        "answer": "$N \\neq 0$"
+      },
+      {
+        "question": "Giá trị của phân thức $\\frac{16}{x^2 - 2x + 5}$ tại $x = 1$ là",
+        "options": [
+          "$2$",
+          "$4$",
+          "$8$",
+          "$16$"
+        ],
+        "answer": "$4$"
+      },
+      {
+        "question": "Công thức biểu thị số tiền phải trả $y$ (đồng) khi mua 15 quyển vở, giá của một quyển vở là $x$ (đồng) là:",
+        "options": [
+          "$y = 15x$",
+          "$y = 15 \\cdot x$",
+          "$x = 15y$",
+          "$x = \\frac{15}{y}$"
+        ],
+        "answer": "$y = 15 \\cdot x$"
+      },
+      {
+        "question": "Hệ số góc của đường thẳng $y = -3x + 2$ là",
+        "options": [
+          "$\\frac{2}{3}$",
+          "$-2$",
+          "$-3$",
+          "$2$"
+        ],
+        "answer": "$-3$"
+      },
+      {
+        "question": "Hình chóp tứ giác đều có các mặt bên là hình gì?",
+        "options": [
+          "Tam giác đều.",
+          "Tam giác vuông cân",
+          "Tam giác vuông.",
+          "Tam giác cân."
+        ],
+        "answer": "Tam giác cân."
+      },
+      {
+        "question": "Khẳng định nào sau đây là ĐÚNG?",
+        "options": [
+          "Tứ giác có hai cạnh đối song song là hình bình hành.",
+          "Tứ giác có hai cạnh đối bằng nhau là hình bình hành.",
+          "Tứ giác có hai góc đối bằng nhau là hình bình hành.",
+          "Tứ giác có các cạnh đối song song là hình bình hành."
+        ],
+        "answer": "Tứ giác có các cạnh đối song song là hình bình hành."
+      },
+      {
+        "question": "Hình thang cân ABCD $(AB \\parallel CD)$ có $\\hat{A} = 90^\\circ$ thì ABCD là:",
+        "options": [
+          "Hình vuông.",
+          "Hình bình hành.",
+          "Hình chữ nhật.",
+          "Hình thoi."
+        ],
+        "answer": "Hình chữ nhật."
+      },
+      {
+        "question": "Tứ giác ABCD có $\\hat{A} = \\hat{C}; \\hat{D} = \\hat{B}$ và $AC \\perp BD$ thì tứ giác ABCD là",
+        "options": [
+          "Hình bình hành.",
+          "Hình thoi.",
+          "Hình vuông.",
+          "Hình thang."
+        ],
+        "answer": "Hình thoi."
+      }
+    ]
+  },
+  "de7": {
+    "multiple_choice": [
+      {
+        "question": "Đơn thức $6x^2y^2$ có hệ số là:",
+        "options": [
+          "$6$",
+          "$2$",
+          "$5$",
+          "$\\frac{1}{6}$"
+        ],
+        "answer": "$6$"
+      },
+      {
+        "question": "Biểu thức nào sau đây đồng dạng với đơn thức $-2x^2y$?",
+        "options": [
+          "$\\frac{1}{2}x^2y$",
+          "$2x^2y$",
+          "$-2x^2z$",
+          "$3xy^3$"
+        ],
+        "answer": "$2x^2y$"
+      },
+      {
+        "question": "Tích của đơn thức $3xy$ với đơn thức $2x^2y$ là:",
+        "options": [
+          "$6x^2y^2$",
+          "$5x^2y^2$",
+          "$6x^2y^2$",
+          "$5x^2y^3$"
+        ],
+        "answer": "$6x^2y^2$"
+      },
+      {
+        "question": "Đẳng thức nào trong các đẳng thức sau là hằng đẳng thức bình phương của một hiệu?",
+        "options": [
+          "$(a - b)^2 = a^2 - 2ab + b^2$",
+          "$(a + b)^2 = a^2 + 2ab + b^2$",
+          "$a^2 - b^2 = (a + b)(a - b)$",
+          "$(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$"
+        ],
+        "answer": "$(a - b)^2 = a^2 - 2ab + b^2$"
+      },
+      {
+        "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 3}$ là",
+        "options": [
+          "$x \\neq 3$",
+          "$x = 3$",
+          "$x \\leq 3$",
+          "$x \\geq 3$"
+        ],
+        "answer": "$x \\neq 3$"
+      },
+      {
+        "question": "Hai phân thức $\\frac{A}{B}$ và $\\frac{C}{D}$ bằng nhau khi:",
+        "options": [
+          "$A.D = B.C$",
+          "$A.C = B.D$",
+          "$A.B = C.D$",
+          "$A:D = B:C$"
+        ],
+        "answer": "$A.D = B.C$"
+      },
+      {
+        "question": "Rút gọn phân thức $\\frac{(x - 4)(x + 4)}{x - 4}$ ta được kết quả",
+        "options": [
+          "$x - 4$",
+          "$x + 4$",
+          "$(x - 4)^2$",
+          "$(x + 4)^2$"
+        ],
+        "answer": "$x + 4$"
+      },
+      {
+        "question": "Cho hàm số $y = f(x) = x^2 + 1$. Khi đó $f(-2)$ có giá trị là số nào sau đây?",
+        "options": [
+          "$5$",
+          "$-3$",
+          "$-5$",
+          "$3$"
+        ],
+        "answer": "$5$"
+      },
+      {
+        "question": "Trong các hàm số sau, hàm số nào là hàm số bậc nhất?",
+        "options": [
+          "$y = 2x - 3$",
+          "$y = \\frac{3}{x}$",
+          "$y = 2x^2 - 3$",
+          "$y = \\frac{3}{x^2}$"
+        ],
+        "answer": "$y = 2x - 3$"
+      },
+      {
+        "question": "Hình vuông có chu vi là $32cm$. Độ dài cạnh hình vuông đó bằng:",
+        "options": [
+          "$8cm$",
+          "$16cm$",
+          "$5cm$",
+          "$4cm$"
+        ],
+        "answer": "$8cm$"
+      }
+    ]
+  },
+  "de8": {
+    "multiple_choice": [
+      {
+        "question": "Kết quả của $2x^2y + 3x^2y$ là:",
+        "options": [
+          "$6x^2y$",
+          "$-5x^2y$",
+          "$-6x^2y$",
+          "$5x^2y$"
+        ],
+        "answer": "$5x^2y$"
+      },
+      {
+        "question": "Kết quả của $5x^2y - 2x^2y$ là:",
+        "options": [
+          "$3x^2y$",
+          "$2x^2y$",
+          "$3xy^2$",
+          "$3x^2y^2$"
+        ],
+        "answer": "$3x^2y$"
+      },
+      {
+        "question": "Đơn thức $-2x^2y^2z$ có hệ số và có bậc là:",
+        "options": [
+          "$-2$ và $3$",
+          "$-2$ và $6$",
+          "$-2$ và $5$",
+          "$-2$ và $4$"
+        ],
+        "answer": "$-2$ và $6$"
+      },
+      {
+        "question": "Bậc của đơn thức 1 là:",
+        "options": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$-1$"
+        ],
+        "answer": "$0$"
+      },
+      {
+        "question": "Đa thức $A = 5x^2y + 2xy - 3x$ có bậc là:",
+        "options": [
+          "$4$",
+          "$5$",
+          "$3$",
+          "$7$"
+        ],
+        "answer": "$4$"
+      },
+      {
+        "question": "Kết quả của phép tính $2x(x - y)$ là:",
+        "options": [
+          "$2x^2 - 2xy$",
+          "$x^2 - 2xy$",
+          "$2x^2 - y$",
+          "$2x - 2xy$"
+        ],
+        "answer": "$2x^2 - 2xy$"
+      },
+      {
+        "question": "Kết quả của phép tính $4x^2y^2z \\div 2xyz$ là:",
+        "options": [
+          "$2xy^2$",
+          "$2x^2y$",
+          "$2xy^2z$",
+          "$2x^2yz$"
+        ],
+        "answer": "$2xy^2$"
+      },
+      {
+        "question": "Biểu thức nào trong các câu sau **không** là đa thức?",
+        "options": [
+          "$2xy + x$",
+          "$2x + xy$",
+          "$\\frac{\\sqrt{x}}{2}$",
+          "$2xy + y$"
+        ],
+        "answer": "$\\frac{\\sqrt{x}}{2}$"
+      },
+      {
+        "question": "Biểu thức nào trong các câu sau là đơn thức?",
+        "options": [
+          "$8xy + 3x$",
+          "$\\frac{8xy}{3}$",
+          "$xy + \\frac{2}{3}x$",
+          "$\\frac{5}{x} + xy$"
+        ],
+        "answer": "$\\frac{8xy}{3}$"
+      },
+      {
+        "question": "Đẳng thức nào trong các đẳng thức sau là hằng đẳng thức bình phương của một hiệu?",
+        "options": [
+          "$(a - b)^2 = a^2 - 2ab + b^2$",
+          "$(a + b)^2 = a^2 + 2ab + b^2$",
+          "$a^2 - b^2 = (a + b)(a - b)$",
+          "$(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$"
+        ],
+        "answer": "$(a - b)^2 = a^2 - 2ab + b^2$"
+      }
+    ]
+  },
+  "de9": {
+    "multiple_choice": [
+      {
+        "question": "Bậc của đa thức $xy + xy^2 + x^3yz$ là:",
+        "options": [
+          "$3$",
+          "$5$",
+          "$6$",
+          "$7$"
+        ],
+        "answer": "$5$"
+      },
+      {
+        "question": "Nếu hai biểu thức P và Q nhận giá trị nhân được với mọi giá trị của biến thì ta nói:",
+        "options": [
+          "$P = Q$ là một đồng nhất thức hay là một hằng đẳng thức.",
+          "$P, Q$ là đa thức.",
+          "$P$ và $Q$ có giá trị không phụ thuộc vào biến.",
+          "$P, Q$ là đa thức nhiều biến."
+        ],
+        "answer": "$P = Q$ là một đồng nhất thức hay là một hằng đẳng thức."
+      },
+      {
+        "question": "Kết quả phép tính $20x^3y^2z^2 \\div 5xy^2z$ là:",
+        "options": [
+          "$4x^2y^2z^2$",
+          "$4xy^2z^2$",
+          "$4xy^2z$",
+          "$6x^2y^3$"
+        ],
+        "answer": "$4x^2y^2z^2$"
+      },
+      {
+        "question": "Biểu thức nào sau đây **không phải** là phân thức?",
+        "options": [
+          "$\\frac{ab}{x - 3}$",
+          "$\\frac{1}{a + b}$",
+          "$x^2y + y^2$",
+          "$\\frac{25x^2y^3}{7}$"
+        ],
+        "answer": "$x^2y + y^2$"
+      },
+      {
+        "question": "Phân thức $\\frac{1 - x}{(1 - x)(1 + x)}$ bằng phân thức nào trong các phân thức sau?",
+        "options": [
+          "$\\frac{1}{1 - x}$",
+          "$\\frac{1 + x}{1 - x}$",
+          "$\\frac{1}{1 + x}$",
+          "$\\frac{1}{x}$"
+        ],
+        "answer": "$\\frac{1}{1 + x}$"
+      },
+      {
+        "question": "Với điều kiện nào của $x$ thì phân thức $\\frac{x - 5}{3 - x}$ xác định:",
+        "options": [
+          "$x \\leq 2$",
+          "$x \\neq 3$",
+          "$x = 3$",
+          "$x \\neq -2$"
+        ],
+        "answer": "$x \\neq 3$"
+      },
+      {
+        "question": "Giá trị của phân thức $\\frac{x^2 - 1}{x}$ khi $x = -1$ là:",
+        "options": [
+          "$1$",
+          "$0$",
+          "$-2$",
+          "$2$"
+        ],
+        "answer": "$0$"
+      },
+      {
+        "question": "Rút gọn phân thức $\\frac{x^2 - y^2}{(x + y)^2}$ được kết quả bằng:",
+        "options": [
+          "$\\frac{x - y}{x + y}$",
+          "$\\frac{x + y}{x - y}$",
+          "$x + y$",
+          "$x - y$"
+        ],
+        "answer": "$\\frac{x - y}{x + y}$"
+      },
+      {
+        "question": "Phân thức đối của phân thức $\\frac{-x}{x - 1}$ là phân thức nào, trong các phân thức sau?",
+        "options": [
+          "$\\frac{x}{x - 1}$",
+          "$\\frac{x - 1}{-x}$",
+          "$\\frac{x}{-x - 1}$",
+          "$\\frac{x}{-x + 1}$"
+        ],
+        "answer": "$\\frac{x}{x - 1}$"
+      },
+      {
+        "question": "Phân thức nghịch đảo của phân thức $\\frac{x}{x + 2}$ với $x \\neq 0, x \\neq -2$ là:",
+        "options": [
+          "$\\frac{x}{x + 2}$",
+          "$\\frac{x + 2}{x}$",
+          "$-\\frac{x}{x + 2}$",
+          "$-\\frac{x}{-x + 2}$"
+        ],
+        "answer": "$\\frac{x + 2}{x}$"
+      }
+    ]
+  },
+  "de10": {
+    "multiple_choice": [
+      {
+        "question": "Hình tam giác đều có mặt bên là các",
+        "options": [
+          "tam giác vuông cân có chung một cạnh.",
+          "tam giác đều có chung một cạnh.",
+          "tam giác cân bằng nhau có chung đỉnh.",
+          "tam giác vuông bằng nhau."
+        ],
+        "answer": "tam giác đều có chung một cạnh."
+      },
+      {
+        "question": "Hằng đẳng thức (hiệu bình phương) nào sau đây là đúng. Chọn 1 câu trả lời của em là",
+        "options": [
+          "$(A - B)^2 = A^2 - 2AB + B^2$",
+          "$(A - B)^2 = A^2 - B^2$",
+          "$(A - B)^2 = A^2 + 2AB + B^2$",
+          "$(A - B)^2 = A^2 - AB + B^2$"
+        ],
+        "answer": "$(A - B)^2 = A^2 - B^2$"
+      },
+      {
+        "question": "Biểu thức $25x^2 - 20x + 4$ được viết dưới dạng bình phương của một hiệu là",
+        "options": [
+          "$(25x - 4)^2$",
+          "$(5x - 4)^2$",
+          "$(5x + 2)^2$",
+          "$(5x - 2)^2$"
+        ],
+        "answer": "$(5x - 2)^2$"
+      },
+      {
+        "question": "Tìm đa thức A biết $(5x^4y^2 - 3x^2y^8) : A = -x^2y^2$",
+        "options": [
+          "$-5x^4 + 3y^6$",
+          "$4x^4y - 4xy^6$",
+          "$-5x^3y + 3xy^4$",
+          "$5x^4 - 3y^6$"
+        ],
+        "answer": "$-5x^4 + 3y^6$"
+      },
+      {
+        "question": "Kết quả của phép tính nhân $5xy \\cdot \\left(2x^2y^2 - \\frac{1}{5}xy^2\\right)$ là",
+        "options": [
+          "$10x^3y^4 - x^2y^3$",
+          "$10x^3y^4 - \\frac{1}{5}xy^2$",
+          "$10x^3y^2 - xy^2$",
+          "$9xy$"
+        ],
+        "answer": "$10x^3y^4 - x^2y^3$"
+      },
+      {
+        "question": "Khi chia đa thức $15x^3y^2 - 20x^2y$ cho đơn thức $-5xy$, ta được kết quả là",
+        "options": [
+          "$-3x^2y^2 - 4x^2$",
+          "$3x^4y^2 - 4x$",
+          "$-3x^2y^2 + 4x^2$",
+          "$-3x^4y^2 + 4x$"
+        ],
+        "answer": "$-3x^4y^2 + 4x$"
+      },
+      {
+        "question": "Tứ giác $DEGH$ là hình bình hành nếu",
+        "options": [
+          "$DE = GH$ hoặc $DH = EG$",
+          "$DE = GH$ và $DE \\parallel GH$",
+          "$DE \\parallel GH$ hoặc $DH \\parallel EG$",
+          "$DG = HE$"
+        ],
+        "answer": "$DE = GH$ và $DE \\parallel GH$"
+      },
+      {
+        "question": "Tứ giác $ABCD$ có $\\hat{B} = \\hat{C} = \\hat{D}$ và $\\hat{A} = 108^\\circ$. Số đo của góc $C$ là",
+        "options": [
+          "$70^\\circ$",
+          "$84^\\circ$",
+          "$60^\\circ$",
+          "$80^\\circ$"
+        ],
+        "answer": "$84^\\circ$"
+      },
+      {
+        "question": "Viết $x^2 - 81$ dưới dạng tích ta được",
+        "options": [
+          "$(x - 9)^2$",
+          "$(x - 81)(x + 81)$",
+          "$(x - 81)^2$",
+          "$(x - 9)(x + 9)$"
+        ],
+        "answer": "$(x - 9)(x + 9)$"
+      },
+      {
+        "question": "Một nhà máy sản xuất linh kiện điện tử tiến hành kiểm tra chất lượng của 200 sản phẩm. Kết quả ghi được có 17 sản phẩm không đạt chuẩn. Xác suất thực nghiệm của biến cố $E$: \"Sản phẩm đạt chuẩn\" là",
+        "options": [
+          "$0,915$",
+          "$0,070$",
+          "$0,075$",
+          "$0,080$"
+        ],
+        "answer": "$0,915$"
+      }
+    ]
   }
 }
