@@ -1,5 +1,85 @@
 [
   {
+    "id": "de6e2e12-0d90-47f8-afb9-411fa7038367",
+    "title": "Đề ôn luyện giữa kì 1 môn văn (đề số 4)",
+    "description": "ĐỀ KIỂM TRA GIỮA HỌC KÌ I\r\nMôn: Ngữ văn lớp 8; Năm học 2025 - 2026\r\n\r\nThời gian làm bài: 90 phút - Không kể thời gian phát đề",
+    "type": "essay",
+    "teacher_id": "teacher_003",
+    "created_at": "28/12/2025 10:13",
+    "time_limit": 90,
+    "subject": "Văn",
+    "grade": "8",
+    "status": "active",
+    "essay_questions": [
+      {
+        "id": 1,
+        "question": "Viết bài văn phân tích bài thơ Chiều hôm nhớ nhà của Bà Huyện Thanh Quan.\r\n",
+        "points": 10,
+        "suggested_answer": "hân tích, áp dụng phương thức biểu đạt tự sự kết hợp linh hoạt các phương thức biểu đạt khác.…\r\n\r\nCách giải:\r\n\r\nVề kỹ năng, hình thức:\r\n\r\n- Học sinh viết đúng kiểu bài tự sự, biết kết hợp linh hoạt các phương thức biểu đạt.\r\n\r\n- Hành văn, diễn đạt trong sáng, kết cấu bài hoàn chỉnh, chặt chẽ. Không mắc lỗi thông thường về chính tả, ngữ pháp.\r\n\r\nVề nội dung:\r\n\r\n1. Mở bài: Giới thiệu khái quát về Bà Huyện Thanh Quan (những nét chính về con người, cuộc đời, sự nghiệp sáng tác,…).\r\n\r\nGiới thiệu khái quát về bài thơ Chiều hôm nhớ nhà (hoàn cảnh sáng tác hoặc tóm tắt nội dung)\r\n\r\n2. Thân bài\r\n\r\n- Nội dung:\r\n\r\n+ Ở bài thơ, ta bắt gặp một quang cảnh buồn, hoang vắng, cô tịch. Đó là cảnh buổi hoàng hôn tím sẫm, cái khoảng không gian và thời gian buồn, gợi nhớ nhất trong một ngày.\r\n\r\n+ Xuất hiện hình ảnh con người nhưng chỉ thoáng bóng thôi, và quang cảnh chỉ có thế. Đó là những người dân lao động nghèo, vất vả làm ăn, sinh hoạt của họ thật tẻ nhạt, thiếu sinh động.\r\n\r\n+ Bà luôn hoài cổ để chối bỏ thực tại và bày tỏ sự chán ghét thực tại. Đó là nỗi nhớ nước, nhớ nhà bà luôn giấu kín trong lòng.\r\n\r\n+ Trước cảnh, bà bộc lộ được niềm tâm sự của mình, một tâm sự hoài cổ, đầy nuối tiếc, muốn níu giữ những kỉ niệm xa xưa.\r\n\r\n- Nghệ thuật\r\n\r\n+ Bài thơ đã đạt đến sự chuẩn mực trong việc sử dụng thể thơ Đường luật.\r\n\r\n+ Nghệ thuật tả cảnh ngụ tình được sử dụng tài năng và đem đến hiệu quả nghệ thuật to lớn.\r\n\r\n+ Nghệ thuật đảo ngữ, chơi chữ cùng việc sử dụng các từ láy.\r\n\r\n3. Kết bài: Khái quát những nét đặc sắc về nội dung và nghệ thuật của bài thơ Chiều hôm nhớ nhà và cảm nghĩ của em về bài thơ.\r\n"
+      }
+    ]
+  },
+  {
+    "id": "03a6a06a-c35b-4df2-b40c-bb8732c5bcfb",
+    "title": "Đề ôn luyện giữa kì 1 môn văn (đề số 3)",
+    "description": "ĐỀ KIỂM TRA GIỮA HỌC KÌ I\r\nMôn: Ngữ văn lớp 8; Năm học 2025 - 2026\r\n\r\nThời gian làm bài: 90 phút - Không kể thời gian phát đề",
+    "type": "essay",
+    "teacher_id": "teacher_003",
+    "created_at": "28/12/2025 10:12",
+    "time_limit": 90,
+    "subject": "Văn",
+    "grade": "8",
+    "status": "active",
+    "essay_questions": [
+      {
+        "id": 1,
+        "question": "Viết bài văn ghi lại cảm nghĩ của em về một bài thơ mà em yêu thích\r\n\r\n",
+        "points": 10,
+        "suggested_answer": "chấm tự do"
+      }
+    ]
+  },
+  {
+    "id": "2a4dcc6b-0933-45f8-9831-cca269c96a7b",
+    "title": "Đề ôn luyện giữa kì 1 môn văn (đề số 2)",
+    "description": "ĐỀ KIỂM TRA GIỮA HỌC KÌ I\r\nMôn: Ngữ văn lớp 8; Năm học 2025 - 2026\r\n\r\nThời gian làm bài: 90 phút - Không kể thời gian phát đề",
+    "type": "essay",
+    "teacher_id": "teacher_003",
+    "created_at": "28/12/2025 10:11",
+    "time_limit": 90,
+    "subject": "Văn",
+    "grade": "8",
+    "status": "active",
+    "essay_questions": [
+      {
+        "id": 1,
+        "question": "\r\nMột viện bảo tàng được lát đá cẩm thạch rất tinh tế và ngay chính giữa sảnh ngự một bức tượng cẩm thạch khổng lồ. Du khách từ khắp nơi trên thế giới đến đây đều trầm trồ trước bức tượng cẩm thạch lộng lẫy này.\r\n       Đêm nọ, đá cẩm thạch nói với tượng cẩm thạch.\r\n       Đá: Này tượng, như thế là không công bằng đâu nhé. Thật là bất công! Tại sao mọi người tới đây đều giẫm lên tôi trong khi họ ngước mắt ngưỡng mộ cậu?\r\n       Tượng: Đá thân mến, cậu có nhớ rằng chúng ta đều sinh ra từ một mỏ đá không?\r\n       Đá: Đúng vậy! Chính điều đó lại càng làm tớ thấy bất công hơn. Chúng ta sinh ra từ một mỏ nhưng lại được đối xử khác nhau. Bất công làm sao!\r\n       Tượng: Rồi cậu có còn nhớ ngày mà nhà điêu khắc đẽo cậu nhưng cậu từ chối không để các dụng cụ đó đẽo gọt lên mình không?\r\n       Đá: Đúng thế, tớ vẫn nhớ […].\r\n       Tượng: Rồi thì ông ấy quyết định từ bỏ cậu và bắt đầu làm việc trên mình tớ. Tớ hiểu ngay rằng mình sẽ khác biệt sau những nỗ lực của ông ấy. Tớ không từ chối các dụng cụ. Thay vào đó, tớ chịu đựng đau đớn khi những dụng cụ đó gọt giũa vào thân mình.\r\n\r\n       Đá: Ừ…\r\n\r\n       Tượng: Cậu thân mến, đó là cái giá của mọi thứ trong cuộc sống. Vì cậu quyết định bỏ cuộc giữa chừng, cậu không thể oán trách vì sao hôm nay người ta lại giẫm lên cậu.\r\n                         (Bạn chỉ sống có một lần, Nhiều tác giả, NXB Trẻ, 2018, tr.90,91)\r\nThực hiện yêu cầu:\r\n     Ý nghĩa của hai hình tượng nhân vật đá cẩm thạch và tượng cẩm thạch là gì? Anh/ chị trả lời câu hỏi bằng cách viết bài văn nghị luận (khoảng 500 chữ).\r\n\r\n",
+        "points": 10,
+        "suggested_answer": "chấm tự do"
+      }
+    ]
+  },
+  {
+    "id": "d0502e06-5f91-45e0-8203-80affc4b0eac",
+    "title": "Đề ôn luyện giữa kì 1 môn văn (đề số 1)",
+    "description": "ĐỀ KIỂM TRA GIỮA HỌC KÌ I\r\nMôn: Ngữ văn lớp 8; Năm học 2025 - 2026\r\nThời gian làm bài: 90 phút - Không kể thời gian phát đề",
+    "type": "essay",
+    "teacher_id": "teacher_003",
+    "created_at": "28/12/2025 10:08",
+    "time_limit": 90,
+    "subject": "Văn",
+    "grade": "8",
+    "status": "active",
+    "essay_questions": [
+      {
+        "id": 1,
+        "question": "Bài học về việc đón nhận thành công luôn thật dễ hiểu và dễ thực hiện. Nhưng đối mặt với thất bại, nhất là thất bại đầu đời, lại là điều không hề dễ dàng. Với tất cả mọi người, thất bại - nhất là thất bại trong các mối quan hệ - thường vẫn tạo ra những tổn thương sâu sắc. Điều này càng trở nên nặng nề đối với các bạn trẻ. Nhưng bạn có biết rằng tất cả chúng ta đều có quyền được khóc? Vậy nên nếu bạn đang cảm thấy cô đơn, tuyệt vọng thì hãy cho phép mình được khóc. Hãy để những giọt nước mắt ấm nồng xoa dịu trái tim đang thổn thức của bạn. Và hãy tin rằng ở đâu đó, có một người nào đó vẫn đang sẵn lòng kề vai cho bạn tựa, muốn được ôm bạn vào lòng và lau khô những giọt nước mắt của bạn... Muốn nhìn thấy cầu vồng, ta phải đi qua cơn mưa... Vì thế, hãy tin ngày mai nắng sẽ lên, và cuộc đời lại sẽ ươm hồng những ước mơ của bạn, một khi bạn còn giữ trong lòng ánh sáng của niềm tin.\r\n(Theo Hạt giống tâm hồn dành cho tuổi teen, tập 2 - Nhiều tác giả, NXB Tổng hợp TP. Hồ Chí Minh, 2012, tr.02)\r\nThực hiện yêu cầu:\r\nTừ văn bản trên, anh/ chị viết một bài văn nghị luận bàn về ý nghĩa của niềm tin trong cuộc sống (khoảng 500 chữ).\r\n\r\n",
+        "points": 10,
+        "suggested_answer": "chấm theo ý bạn"
+      }
+    ]
+  },
+  {
     "id": "c9b5e001-5007-47e9-ab2a-2709215999bc",
     "title": "test",
     "description": "test",
