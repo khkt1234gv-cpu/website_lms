@@ -222,8 +222,9 @@
     }
 
     .exam-list.show {
-      max-height: 400px;
+      max-height: 600px;
       padding: 10px 20px 20px;
+      overflow-y: auto;  /* Thêm dòng này nếu muốn scroll */
     }
 
     .exam-item {
@@ -336,15 +337,15 @@
       <li class="active" onclick="toggle(this)">
         Bài tập Toán học
         <ul class="submenu show">
-          <li><a href="/exam/de1">Đề thi Toán số 1</a></li>
-          <li><a href="/exam/de2">Đề thi Toán số 2</a></li>
-          <li><a href="/exam/de4">Đề thi Toán số 3</a></li>
-          <li><a href="/exam/de5">Đề 1 ôn HK1</a></li>
-          <li><a href="/exam/de6">Đề 2 ôn HK1</a></li>
+          <li><a href="/exam/de1">Đề tham khảo số 1</a></li>
+          <li><a href="/exam/de2">Đề tham khảo số 2</a></li>
+          <li><a href="/exam/de4">Đề tham khảo số 3</a></li>
+          <li><a href="/exam/de5">Đề tham khảo ôn HK1</a></li>
+          <li><a href="/exam/de6">Đề tham khảo ôn HK2</a></li>
           <li><a href="/exam/de7">Đề 1 Tham khảo tỉnh Quảng Ngãi năm 2023-2024</a></li>
           <li><a href="/exam/de8">Đề 2 Tham khảo tỉnh Quảng Ngãi năm 2023-2024</a></li>
-          <li><a href="/exam/de9">Đề 3 Tham khảo tỉnh Quảng Ngãi năm 2023-2024</a></li>
-          <li><a href="/exam/de10">Đề 4 Tham khảo tỉnh Quảng Ngãi năm 2023-2024</a></li>
+          <li><a href="/exam/de9">Đề 3 Tham khảo tỉnh Đà Nẵng năm 2023-2024</a></li>
+          <li><a href="/exam/de10">Đề 4 Tham khảo tỉnh Hải Phòng năm 2023-2024</a></li>
         </ul>
       </li>
       <li><a href="/upload_image" style="text-decoration:none; color:inherit; display:block;">Kiểm tra toán có gì phải lo</a></li>
@@ -367,30 +368,80 @@
         <div class="card-body">
           <div class="card-title">KIỂM TRA CÓ GÌ PHẢI LO</div>
           <div class="card-text">Chọn đề thi để bắt đầu làm bài</div>
-          <span class="badge">3 Đề thi</span>
+          <span class="badge">9 Đề thi</span>
           <div class="expand-arrow" id="examArrow">▼</div>
         </div>
         <div class="exam-list" id="examList">
           <a href="/exam/de1" class="exam-item" onclick="event.stopPropagation()">
             <div class="exam-info">
               <div class="exam-number">1</div>
-              <div class="exam-text">Đề thi Toán số 1</div>
+              <div class="exam-text">Đề tham khảo số 1</div>
             </div>
             <span class="badge">Mới</span>
           </a>
+
           <a href="/exam/de2" class="exam-item" onclick="event.stopPropagation()">
             <div class="exam-info">
               <div class="exam-number">2</div>
-              <div class="exam-text">Đề thi Toán số 2</div>
+              <div class="exam-text">Đề tham khảo số 2</div>
             </div>
             <span class="badge">Phổ biến</span>
           </a>
-          <a href="/exam/de3" class="exam-item" onclick="event.stopPropagation()">
+
+          <a href="/exam/de4" class="exam-item" onclick="event.stopPropagation()">
             <div class="exam-info">
               <div class="exam-number">3</div>
-              <div class="exam-text">Đề thi Toán số 3</div>
+              <div class="exam-text">Đề tham khảo số 3</div>
             </div>
             <span class="badge">Nâng cao</span>
+          </a>
+
+          <a href="/exam/de5" class="exam-item" onclick="event.stopPropagation()">
+            <div class="exam-info">
+              <div class="exam-number">4</div>
+              <div class="exam-text">Đề tham khảo ôn HK1</div>
+            </div>
+            <span class="badge">Ôn tập</span>
+          </a>
+
+          <a href="/exam/de6" class="exam-item" onclick="event.stopPropagation()">
+            <div class="exam-info">
+              <div class="exam-number">5</div>
+              <div class="exam-text">Đề tham khảo ôn HK2</div>
+            </div>
+            <span class="badge">Ôn tập</span>
+          </a>
+
+          <a href="/exam/de7" class="exam-item" onclick="event.stopPropagation()">
+            <div class="exam-info">
+              <div class="exam-number">6</div>
+              <div class="exam-text">Đề 1 Tham khảo tỉnh Quảng Ngãi năm 2023-2024</div>
+            </div>
+            <span class="badge">Quảng Ngãi</span>
+          </a>
+
+          <a href="/exam/de8" class="exam-item" onclick="event.stopPropagation()">
+            <div class="exam-info">
+              <div class="exam-number">7</div>
+              <div class="exam-text">Đề 2 Tham khảo tỉnh Quảng Ngãi năm 2023-2024</div>
+            </div>
+            <span class="badge">Quảng Ngãi</span>
+          </a>
+
+          <a href="/exam/de9" class="exam-item" onclick="event.stopPropagation()">
+            <div class="exam-info">
+              <div class="exam-number">8</div>
+              <div class="exam-text">Đề 3 Tham khảo tỉnh Đà Nẵng năm 2023-2024</div>
+            </div>
+            <span class="badge">Đà Nẵng</span>
+          </a>
+
+          <a href="/exam/de10" class="exam-item" onclick="event.stopPropagation()">
+            <div class="exam-info">
+              <div class="exam-number">9</div>
+              <div class="exam-text">Đề 4 Tham khảo tỉnh Hải Phòng năm 2023-2024</div>
+            </div>
+            <span class="badge">Hải Phòng</span>
           </a>
           <a href="/upload_image" class="exam-item" onclick="event.stopPropagation()">
             <div class="exam-info">
