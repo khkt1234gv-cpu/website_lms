@@ -33,7 +33,7 @@ else:
 
 CLASS_ACTIVITY_FILE = os.path.join('data', 'class_activities.json')
 CLASS_ACTIVITY_IMAGES = os.path.join('static', 'class_activity_uploads')
-
+CLASS_CHAT_FILE = 'data/class_chat_messages.json'
 # Tạo thư mục nếu chưa có
 os.makedirs(os.path.dirname(CLASS_ACTIVITY_FILE), exist_ok=True)
 os.makedirs(CLASS_ACTIVITY_IMAGES, exist_ok=True)
@@ -728,7 +728,8 @@ def extract_text_from_pdf(pdf_path):
     except Exception as e:
         return f"Lỗi khi đọc PDF: {str(e)}"
 
-
+####
+### shl
 #################
 def load_class_activities():
     """Load danh sách các phiên sinh hoạt lớp"""
@@ -792,7 +793,97 @@ def new_class_activity():
 
     return render_template('new_class_activity.html')
 
+###
+def load_chat_messages(activity_id):
+    """Load tin nhắn chat của một phiên sinh hoạt"""
+    try:
+        with open(CLASS_CHAT_FILE, 'r', encoding='utf-8') as f:
+            all_chats = json.load(f)
+            return all_chats.get(activity_id, [])
+    except FileNotFoundError:
+        return []
 
+def save_chat_message(activity_id, message_data):
+    """Lưu tin nhắn chat mới"""
+    try:
+        with open(CLASS_CHAT_FILE, 'r', encoding='utf-8') as f:
+            all_chats = json.load(f)
+    except FileNotFoundError:
+        all_chats = {}
+    
+    if activity_id not in all_chats:
+        all_chats[activity_id] = []
+    
+    all_chats[activity_id].append(message_data)
+    
+    with open(CLASS_CHAT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(all_chats, f, ensure_ascii=False, indent=2)
+
+@app.route('/class_activity/<activity_id>/chat', methods=['GET'])
+def class_activity_chat(activity_id):
+    """Trang chat ẩn danh của lớp"""
+    activities = load_class_activities()
+    activity = next((a for a in activities if a['id'] == activity_id), None)
+    
+    if not activity:
+        flash('Không tìm thấy phiên sinh hoạt!', 'error')
+        return redirect(url_for('class_activity'))
+    
+    messages = load_chat_messages(activity_id)
+    
+    return render_template('class_activity_chat.html', 
+                         activity=activity, 
+                         messages=messages)
+
+@app.route('/class_activity/<activity_id>/chat/send', methods=['POST'])
+def send_chat_message(activity_id):
+    """Gửi tin nhắn chat"""
+    activities = load_class_activities()
+    activity = next((a for a in activities if a['id'] == activity_id), None)
+    
+    if not activity:
+        return jsonify({'success': False, 'error': 'Activity not found'}), 404
+    
+    data = request.get_json()
+    message_text = data.get('message', '').strip()
+    nickname = data.get('nickname', '').strip()
+    
+    if not message_text:
+        return jsonify({'success': False, 'error': 'Message is empty'}), 400
+    
+    if not nickname:
+        nickname = 'Ẩn danh'
+    
+    # Tạo message data
+    message_data = {
+        'id': str(uuid.uuid4()),
+        'nickname': nickname,
+        'message': message_text,
+        'timestamp': datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
+        'avatar_color': generate_avatar_color(nickname)
+    }
+    
+    save_chat_message(activity_id, message_data)
+    
+    return jsonify({'success': True, 'message': message_data})
+
+@app.route('/class_activity/<activity_id>/chat/messages', methods=['GET'])
+def get_chat_messages(activity_id):
+    """Lấy danh sách tin nhắn (API cho auto-refresh)"""
+    messages = load_chat_messages(activity_id)
+    return jsonify({'success': True, 'messages': messages})
+
+def generate_avatar_color(nickname):
+    """Tạo màu avatar dựa trên nickname"""
+    colors = [
+        '#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', 
+        '#98D8C8', '#F7DC6F', '#BB8FCE', '#85C1E2',
+        '#F8B500', '#52B788', '#E63946', '#457B9D'
+    ]
+    # Hash nickname để lấy màu cố định cho mỗi nickname
+    hash_value = sum(ord(c) for c in nickname)
+    return colors[hash_value % len(colors)]
+#####
 @app.route('/class_activity/<activity_id>', methods=['GET', 'POST'])
 def class_activity_detail(activity_id):
     """Chi tiết phiên sinh hoạt - Upload ảnh cho từng tổ"""
@@ -854,6 +945,7 @@ def class_activity_detail(activity_id):
     return render_template('class_activity_detail.html', activity=activity)
 
 
+#####
 #####
 @app.route('/class_activity/<activity_id>/analyze', methods=['POST'])
 def analyze_class_activity(activity_id):

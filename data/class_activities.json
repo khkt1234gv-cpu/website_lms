@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "a69b4971-e9c1-43a3-be05-015dd3c628c8",
+    "week_name": "test",
+    "description": "1",
+    "created_at": "28/12/2025 21:23",
+    "status": "collecting",
+    "groups": {
+      "to_1": [],
+      "to_2": [],
+      "to_3": [],
+      "to_4": [],
+      "giao_vien": []
+    },
+    "ai_analysis": null
+  }
+]

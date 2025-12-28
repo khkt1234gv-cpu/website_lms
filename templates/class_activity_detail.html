@@ -35,8 +35,20 @@
             color: #666;
             margin-bottom: 20px;
         }
+        
+        /* ACTION BUTTONS - MỚI */
+        .action-buttons {
+            margin-top: 25px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
         .btn {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
             padding: 12px 25px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -52,15 +64,42 @@
             transform: translateY(-2px);
             box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
         }
+        .btn:active {
+            transform: translateY(0);
+        }
+        
+        /* Nút Chat - MỚI */
+        .btn-chat {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+        .btn-chat:hover {
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+        }
+        
         .btn-analyze {
             background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
             font-size: 18px;
             padding: 15px 40px;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
         }
+        .btn-analyze:hover {
+            box-shadow: 0 6px 20px rgba(40, 167, 69, 0.5);
+        }
+        
+        /* Nút Xem Kết Quả - MỚI */
+        .btn-result {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            box-shadow: 0 4px 15px rgba(240, 147, 251, 0.3);
+        }
+        .btn-result:hover {
+            box-shadow: 0 6px 20px rgba(240, 147, 251, 0.5);
+        }
+        
         .btn-back {
             background: #6c757d;
-            margin-left: 10px;
         }
+        
         .groups-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -238,8 +277,22 @@
             {% if activity.description %}
                 <p class="subtitle">{{ activity.description }}</p>
             {% endif %}
-            <div>
+            
+            <!-- ACTION BUTTONS - ĐÃ CÂP NHẬT -->
+            <div class="action-buttons">
                 <a href="/class_activity" class="btn btn-back">⬅️ Quay lại</a>
+                
+                <!-- Nút Chat Lớp - MỚI -->
+                <a href="/class_activity/{{ activity.id }}/chat" class="btn btn-chat">
+                    💬 Chat Lớp Ẩn Danh
+                </a>
+                
+                <!-- Nút Xem Kết Quả (nếu đã phân tích) - MỚI -->
+                {% if activity.status == 'analyzed' %}
+                <a href="/class_activity/{{ activity.id }}/result" class="btn btn-result">
+                    📊 Xem Kết Quả Phân Tích
+                </a>
+                {% endif %}
             </div>
         </div>
 
@@ -417,11 +470,15 @@
                 </div>
             </div>
 
+            {% if activity.status != 'analyzed' %}
             <form method="POST" action="/class_activity/{{ activity.id }}/analyze" onsubmit="return confirm('Bạn có chắc muốn phân tích? Quá trình này có thể mất vài phút.')">
                 <button type="submit" class="btn btn-analyze">
                     🔍 Phân tích ngay
                 </button>
             </form>
+            {% else %}
+            <p style="color: #28a745; font-weight: 600; font-size: 18px;">✅ Đã phân tích xong! Nhấn "Xem Kết Quả Phân Tích" ở trên để xem.</p>
+            {% endif %}
         </div>
     </div>
 
