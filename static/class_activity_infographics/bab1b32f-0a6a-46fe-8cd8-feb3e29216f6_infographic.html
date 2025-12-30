@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kế hoạch tuần học lớp 8A4 - THCS Cẩm Phả</title>
+<link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+body {
+font-family: 'Segoe UI', sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f0f2f5; /* Light background for the overall page */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+/* General table styling */
+table th, table td {
+border: 2px solid #ddd;
+padding: 10px;
+text-align: left;
+font-size: 16px;
+color: #333;
+}
+table tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+table tr:hover {
+background-color: #e6e6e6;
+}
+table th {
+text-align: center;
+font-weight: bold;
+}
+
+/* Specific styles for evaluation rows */
+.eval-row {
+display: flex;
+gap: 15px;
+align-items: center;
+padding: 12px;
+background: #f8f9fa;
+border-radius: 10px;
+margin-bottom: 10px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.08); /* Subtle shadow for rows */
+transition: transform 0.2s ease-in-out;
+}
+.eval-row:hover {
+transform: translateY(-2px);
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.eval-icon {
+font-size: 32px;
+min-width: 32px; /* Ensure consistent icon size */
+text-align: center;
+}
+.eval-label {
+flex: 1;
+font-weight: 600;
+color: #333;
+font-size: 18px;
+}
+.eval-content {
+display: flex;
+flex-direction: column;
+gap: 5px;
+flex: 2; /* Allow content to take more space */
+}
+.eval-badge {
+background: linear-gradient(135deg, #ffd89b 0%, #ff9a56 100%);
+padding: 5px 15px;
+border-radius: 20px;
+color: white;
+font-weight: bold;
+align-self: flex-start;
+font-size: 14px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+/* Specific styles for goal items */
+.goal-item {
+display: flex;
+gap: 15px;
+align-items: flex-start; /* Align items to the top for longer text */
+padding: 15px;
+background: #f8f9fa;
+border-radius: 10px;
+margin-bottom: 15px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+transition: transform 0.2s ease-in-out;
+}
+.goal-item:hover {
+transform: translateY(-2px);
+box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+.goal-icon {
+font-size: 32px;
+min-width: 32px; /* Ensure consistent icon size */
+text-align: center;
+}
+.goal-text {
+font-size: 18px;
+font-weight: 500;
+color: #444;
+line-height: 1.5;
+}
+
+/* Common box styling for 2.5D effect */
+.schedule-box, .eval-box, .goals-box {
+position: relative;
+transform: translateZ(0); /* Enable 3D transform for shadow rendering */
+perspective: 1000px;
+background: white;
+border-radius: 15px;
+padding: 20px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.15),
+0 0 0 4px transparent; /* Placeholder for border gradient */
+transition: all 0.3s ease-in-out;
+}
+
+/* Gradient borders using pseudo-elements */
+.schedule-box::before, .eval-box::before, .goals-box::before {
+content: '';
+position: absolute;
+top: -4px;
+left: -4px;
+right: -4px;
+bottom: -4px;
+border-radius: 19px; /* border-radius + border-width */
+z-index: -1;
+background: transparent; /* Default */
+pointer-events: none;
+}
+.schedule-box::before {
+background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+.eval-box::before {
+background: linear-gradient(135deg, #5ec793 0%, #3da66d 100%);
+}
+.goals-box::before {
+background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+/* General title styling within boxes */
+.schedule-box .title, .eval-box .title, .goals-box .title {
+box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Shadow for title bars */
+text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+position: relative;
+z-index: 1; /* Ensure title is above box content visually */
+}
+
+/* Adjust header and sun icon for better overlap with text */
+.header .logo {
+z-index: 10;
+}
+.header span {
+z-index: 10;
+}
+.header h1, .header div {
+position: relative;
+z-index: 5; /* Ensure text is above background but below logo/sun */
+}
+</style>
+</head>
+<body>
+<div id="infographic" style="width:1200px; background: linear-gradient(135deg, #e8d5c4 0%, #d4b5a0 100%); box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+<div class="header" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding:30px; position:relative; overflow:hidden; border-radius:15px 15px 0 0;">
+<div class="logo" style="position:absolute; top:20px; left:30px; background:white; width:80px; height:80px; border-radius:50%; display:flex; flex-direction:column; align-items:center; justify-content:center; font-weight:bold; color:#3a8fd9; font-size:14px; line-height:1.2; text-align:center; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">THCS<br>CẨM PHẢ</div>
+<span style="position:absolute; top:20px; left:120px; font-size:60px; filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.3));">☀️</span>
+<h1 style="text-align:center; color:white; font-size:48px; text-shadow: 3px 3px 6px rgba(0,0,0,0.3); margin-bottom:10px;">KẾ HOẠCH TUẦN HỌC LỚP 8A4</h1>
+<div style="text-align:center; color:white; font-size:32px;">THCS CẨM PHẢ - TUẦN HỌC</div>
+<div style="text-align:center; color:white; font-size:24px; margin-top:10px;">sinh hoạt lớp tuần 10</div>
+</div>
+
+<div class="content" style="display:grid; grid-template-columns:1fr 1fr; gap:30px; padding:30px;">
+
+<!-- CỘT TRÁI: THỜI KHÓA BIỂU -->
+<div class="schedule-box">
+<div class="title" style="background:linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color:white; padding:15px; border-radius:10px; text-align:center; font-size:20px; font-weight:bold; margin-bottom:20px;">📅 THỜI KHÓA BIỂU</div>
+<table style="width:100%; border-collapse:collapse; border-radius:10px; overflow:hidden;">
+<tr style="background:#ffd89b; color:white;">
+<th style="padding:10px; border-bottom: none; border-right: none;">Tiết</th>
+<th style="padding:10px; border-bottom: none; border-left: none; border-right: none;">Môn học</th>
+<th style="padding:10px; border-bottom: none; border-left: none;">Icon</th>
+</tr>
+<tr><td colspan='3' style='background: #2196F3; color: white; font-weight: bold; text-align: center; border:none;'>Thứ 2</td></tr><tr><td style='text-align:center; font-weight:bold;'>1</td><td>HDTN 1 - T. Linh</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>2</td><td>Sử - Thắm</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>3</td><td>Anh - Mai Anh</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>4</td><td>Văn - Thùy</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>5</td><td>GDTC - Th. Linh</td><td style='text-align:center;'>📚</td></tr><tr><td colspan='3' style='background:#e3f2fd; text-align:center; padding:8px; font-size:14px; color:#555; border:none;'>👔 Áo trắng, Quần tây, Đồng phục thể dục, Áo khoác mùa đông</td></tr><tr><td colspan='3' style='background: #2196F3; color: white; font-weight: bold; text-align: center; border:none;'>Thứ 3</td></tr><tr><td style='text-align:center; font-weight:bold;'>1</td><td>HDTN 2 - T. Linh</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>2</td><td>Văn - Thùy</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>3</td><td>Văn - Thùy</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>4</td><td>CN - P. Dũng</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>5</td><td>Anh - Mai Anh</td><td style='text-align:center;'>📚</td></tr><tr><td colspan='3' style='background:#e3f2fd; text-align:center; padding:8px; font-size:14px; color:#555; border:none;'>👔 Áo trắng, Quần tây, Áo khoác mùa đông</td></tr><tr><td colspan='3' style='background: #2196F3; color: white; font-weight: bold; text-align: center; border:none;'>Thứ 4</td></tr><tr><td style='text-align:center; font-weight:bold;'>1</td><td>HDTN 3 - T. Linh</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>2</td><td>KHTN - Hoá - T. Trang</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>3</td><td>NT Âm nhạc - Vui</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>4</td><td>KHTN - Lý - Phượng</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>5</td><td></td><td style='text-align:center;'>📚</td></tr><tr><td colspan='3' style='background:#e3f2fd; text-align:center; padding:8px; font-size:14px; color:#555; border:none;'>👔 Áo trắng, Quần tây, Áo khoác mùa đông</td></tr><tr><td colspan='3' style='background: #2196F3; color: white; font-weight: bold; text-align: center; border:none;'>Thứ 5</td></tr><tr><td style='text-align:center; font-weight:bold;'>1</td><td>Văn - Thùy</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>2</td><td>Toán - T. Linh</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>3</td><td>GDTC - Th.Linh</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>4</td><td>CD - Hải</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>5</td><td>Anh - Mai Anh</td><td style='text-align:center;'>📚</td></tr><tr><td colspan='3' style='background:#e3f2fd; text-align:center; padding:8px; font-size:14px; color:#555; border:none;'>👔 Áo trắng, Quần tây, Đồng phục thể dục, Áo khoác mùa đông</td></tr><tr><td colspan='3' style='background: #2196F3; color: white; font-weight: bold; text-align: center; border:none;'>Thứ 6</td></tr><tr><td style='text-align:center; font-weight:bold;'>1</td><td>KHTN - Sinh - Huế</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>2</td><td>Sử - Thắm</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>3</td><td>Toán - T. Linh</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>4</td><td>Địa - X. Linh</td><td style='text-align:center;'>📚</td></tr><tr><td style='text-align:center; font-weight:bold;'>5</td><td>SHL - T. Linh</td><td style='text-align:center;'>📚</td></tr><tr><td colspan='3' style='background:#e3f2fd; text-align:center; padding:8px; font-size:14px; color:#555; border:none;'>👔 Áo trắng, Quần tây, Áo khoác mùa đông</td></tr>
+</table>
+</div>
+
+<!-- CỘT PHẢI: NHẬN XÉT -->
+<div class="eval-box">
+<div class="title" style="background:linear-gradient(135deg, #5ec793 0%, #3da66d 100%); color:white; padding:15px; border-radius:10px; text-align:center; font-size:20px; font-weight:bold; margin-bottom:20px;">📊 NHẬN XÉT SINH HOẠT LỚP TUẦN QUA</div>
+
+<div class="eval-row">
+<div class="eval-icon">📚</div>
+<div class="eval-label">Kỷ luật giờ học</div>
+<div class="eval-content">
+<div>Vẫn còn tình trạng nói chuyện riêng, làm việc riêng trong giờ học, ảnh hưởng đến sự tập trung chung của lớp.</div>
+<span class="eval-badge">Trung bình</span>
+</div>
+</div>
+
+<div class="eval-row">
+<div class="eval-icon">👔</div>
+<div class="eval-label">Nội quy lớp</div>
+<div class="eval-content">
+<div>Đa số các em có ý thức tốt, nhưng vẫn còn trường hợp vi phạm về trang phục và tác phong.</div>
+<span class="eval-badge">Khá</span>
+</div>
+</div>
+
+<div class="eval-row">
+<div class="eval-icon">📖</div>
+<div class="eval-label">Chuẩn bị bài vở</div>
+<div class="eval-content">
+<div>Cần nhắc nhở và cải thiện. Vẫn còn học sinh chưa chuẩn bị bài, không ghi chép đầy đủ, hoặc quên sách vở.</div>
+<span class="eval-badge">Trung bình</span>
+</div>
+</div>
+
+<div class="eval-row">
+<div class="eval-icon">🧹</div>
+<div class="eval-label">Vệ sinh lớp học</div>
+<div class="eval-content">
+<div>Nhìn chung được duy trì tốt. Các tổ có ý thức giữ gìn vệ sinh chung của lớp.</div>
+<span class="eval-badge">Tốt</span>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- PHƯƠNG HƯỚNG TUẦN MỚI (Full width) -->
+<div style="padding:0 30px 30px 30px;">
+<div class="goals-box">
+<div class="title" style="background:linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color:white; padding:15px; border-radius:10px; text-align:center; font-size:24px; font-weight:bold; margin-bottom:20px;">🎯 PHƯƠNG HƯỚNG TUẦN MỚI</div>
+
+<div class="goal-item">
+<div class="goal-icon">✅</div>
+<div class="goal-text">Nghiêm túc tập trung trong giờ học, hạn chế tối đa việc nói chuyện riêng, làm việc riêng và nói leo. Chủ động, tích cực phát biểu xây dựng bài.</div>
+</div>
+
+<div class="goal-item">
+<div class="goal-icon">✅</div>
+<div class="goal-text">Chấp hành nghiêm chỉnh nội quy của lớp và trường, đặc biệt về trang phục, tác phong và giờ giấc.</div>
+</div>
+
+<div class="goal-item">
+<div class="goal-icon">✅</div>
+<div class="goal-text">Chuẩn bị bài đầy đủ trước khi đến lớp, tích cực ghi chép bài, và hoàn thành bài tập đúng hạn.</div>
+</div>
+
+<div class="goal-item">
+<div class="goal-icon">✅</div>
+<div class="goal-text">Tiếp tục duy trì và nâng cao chất lượng vệ sinh lớp học, đảm bảo không gian học tập luôn sạch sẽ, gọn gàng.</div>
+</div>
+
+<div class="goal-item">
+<div class="goal-icon">✅</div>
+<div class="goal-text">Khen thưởng và trao huy hiệu thi đua tuần cho các cá nhân có thành tích xuất sắc và hai tập thể Tổ 3, Tổ 4 đạt điểm thi đua cao nhất.</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<button onclick="downloadImage()" style="margin:20px auto; display:block; padding:15px 40px; font-size:18px; background:linear-gradient(135deg, #667eea 0%, #764ba2 100%); color:white; border:none; border-radius:50px; cursor:pointer; font-weight:bold; box-shadow:0 4px 15px rgba(0,0,0,0.2); transition: all 0.3s ease-in-out;">⬇️ TẢI XUỐNG ẢNH PNG</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+async function downloadImage() {
+const element = document.getElementById('infographic');
+const canvas = await html2canvas(element, {
+scale: 2, /* Increase scale for higher resolution image */
+backgroundColor: '#e8d5c4', /* Matches the start of the infographic background gradient */
+logging: false,
+useCORS: true /* Important for images loaded from external sources (though not used here, good practice) */
+});
+const link = document.createElement('a');
+link.download = 'ke-hoach-tuan-hoc-8A4-THCS-Cam-Pha.png'; /* More descriptive filename */
+link.href = canvas.toDataURL('image/png');
+link.click();
+}
+</script>
+</body>
+</html>

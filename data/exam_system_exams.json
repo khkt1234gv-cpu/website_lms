@@ -1,92 +1,520 @@
 [
   {
-    "id": "de6e2e12-0d90-47f8-afb9-411fa7038367",
-    "title": "Đề ôn luyện giữa kì 1 môn văn (đề số 4)",
-    "description": "ĐỀ KIỂM TRA GIỮA HỌC KÌ I\r\nMôn: Ngữ văn lớp 8; Năm học 2025 - 2026\r\n\r\nThời gian làm bài: 90 phút - Không kể thời gian phát đề",
-    "type": "essay",
-    "teacher_id": "teacher_003",
-    "created_at": "28/12/2025 10:13",
-    "time_limit": 90,
-    "subject": "Văn",
-    "grade": "8",
-    "status": "active",
-    "essay_questions": [
-      {
-        "id": 1,
-        "question": "Viết bài văn phân tích bài thơ Chiều hôm nhớ nhà của Bà Huyện Thanh Quan.\r\n",
-        "points": 10,
-        "suggested_answer": "hân tích, áp dụng phương thức biểu đạt tự sự kết hợp linh hoạt các phương thức biểu đạt khác.…\r\n\r\nCách giải:\r\n\r\nVề kỹ năng, hình thức:\r\n\r\n- Học sinh viết đúng kiểu bài tự sự, biết kết hợp linh hoạt các phương thức biểu đạt.\r\n\r\n- Hành văn, diễn đạt trong sáng, kết cấu bài hoàn chỉnh, chặt chẽ. Không mắc lỗi thông thường về chính tả, ngữ pháp.\r\n\r\nVề nội dung:\r\n\r\n1. Mở bài: Giới thiệu khái quát về Bà Huyện Thanh Quan (những nét chính về con người, cuộc đời, sự nghiệp sáng tác,…).\r\n\r\nGiới thiệu khái quát về bài thơ Chiều hôm nhớ nhà (hoàn cảnh sáng tác hoặc tóm tắt nội dung)\r\n\r\n2. Thân bài\r\n\r\n- Nội dung:\r\n\r\n+ Ở bài thơ, ta bắt gặp một quang cảnh buồn, hoang vắng, cô tịch. Đó là cảnh buổi hoàng hôn tím sẫm, cái khoảng không gian và thời gian buồn, gợi nhớ nhất trong một ngày.\r\n\r\n+ Xuất hiện hình ảnh con người nhưng chỉ thoáng bóng thôi, và quang cảnh chỉ có thế. Đó là những người dân lao động nghèo, vất vả làm ăn, sinh hoạt của họ thật tẻ nhạt, thiếu sinh động.\r\n\r\n+ Bà luôn hoài cổ để chối bỏ thực tại và bày tỏ sự chán ghét thực tại. Đó là nỗi nhớ nước, nhớ nhà bà luôn giấu kín trong lòng.\r\n\r\n+ Trước cảnh, bà bộc lộ được niềm tâm sự của mình, một tâm sự hoài cổ, đầy nuối tiếc, muốn níu giữ những kỉ niệm xa xưa.\r\n\r\n- Nghệ thuật\r\n\r\n+ Bài thơ đã đạt đến sự chuẩn mực trong việc sử dụng thể thơ Đường luật.\r\n\r\n+ Nghệ thuật tả cảnh ngụ tình được sử dụng tài năng và đem đến hiệu quả nghệ thuật to lớn.\r\n\r\n+ Nghệ thuật đảo ngữ, chơi chữ cùng việc sử dụng các từ láy.\r\n\r\n3. Kết bài: Khái quát những nét đặc sắc về nội dung và nghệ thuật của bài thơ Chiều hôm nhớ nhà và cảm nghĩ của em về bài thơ.\r\n"
-      }
-    ]
-  },
-  {
-    "id": "03a6a06a-c35b-4df2-b40c-bb8732c5bcfb",
-    "title": "Đề ôn luyện giữa kì 1 môn văn (đề số 3)",
-    "description": "ĐỀ KIỂM TRA GIỮA HỌC KÌ I\r\nMôn: Ngữ văn lớp 8; Năm học 2025 - 2026\r\n\r\nThời gian làm bài: 90 phút - Không kể thời gian phát đề",
-    "type": "essay",
-    "teacher_id": "teacher_003",
-    "created_at": "28/12/2025 10:12",
-    "time_limit": 90,
-    "subject": "Văn",
-    "grade": "8",
-    "status": "active",
-    "essay_questions": [
-      {
-        "id": 1,
-        "question": "Viết bài văn ghi lại cảm nghĩ của em về một bài thơ mà em yêu thích\r\n\r\n",
-        "points": 10,
-        "suggested_answer": "chấm tự do"
-      }
-    ]
-  },
-  {
-    "id": "2a4dcc6b-0933-45f8-9831-cca269c96a7b",
-    "title": "Đề ôn luyện giữa kì 1 môn văn (đề số 2)",
-    "description": "ĐỀ KIỂM TRA GIỮA HỌC KÌ I\r\nMôn: Ngữ văn lớp 8; Năm học 2025 - 2026\r\n\r\nThời gian làm bài: 90 phút - Không kể thời gian phát đề",
-    "type": "essay",
-    "teacher_id": "teacher_003",
-    "created_at": "28/12/2025 10:11",
-    "time_limit": 90,
-    "subject": "Văn",
-    "grade": "8",
-    "status": "active",
-    "essay_questions": [
-      {
-        "id": 1,
-        "question": "\r\nMột viện bảo tàng được lát đá cẩm thạch rất tinh tế và ngay chính giữa sảnh ngự một bức tượng cẩm thạch khổng lồ. Du khách từ khắp nơi trên thế giới đến đây đều trầm trồ trước bức tượng cẩm thạch lộng lẫy này.\r\n       Đêm nọ, đá cẩm thạch nói với tượng cẩm thạch.\r\n       Đá: Này tượng, như thế là không công bằng đâu nhé. Thật là bất công! Tại sao mọi người tới đây đều giẫm lên tôi trong khi họ ngước mắt ngưỡng mộ cậu?\r\n       Tượng: Đá thân mến, cậu có nhớ rằng chúng ta đều sinh ra từ một mỏ đá không?\r\n       Đá: Đúng vậy! Chính điều đó lại càng làm tớ thấy bất công hơn. Chúng ta sinh ra từ một mỏ nhưng lại được đối xử khác nhau. Bất công làm sao!\r\n       Tượng: Rồi cậu có còn nhớ ngày mà nhà điêu khắc đẽo cậu nhưng cậu từ chối không để các dụng cụ đó đẽo gọt lên mình không?\r\n       Đá: Đúng thế, tớ vẫn nhớ […].\r\n       Tượng: Rồi thì ông ấy quyết định từ bỏ cậu và bắt đầu làm việc trên mình tớ. Tớ hiểu ngay rằng mình sẽ khác biệt sau những nỗ lực của ông ấy. Tớ không từ chối các dụng cụ. Thay vào đó, tớ chịu đựng đau đớn khi những dụng cụ đó gọt giũa vào thân mình.\r\n\r\n       Đá: Ừ…\r\n\r\n       Tượng: Cậu thân mến, đó là cái giá của mọi thứ trong cuộc sống. Vì cậu quyết định bỏ cuộc giữa chừng, cậu không thể oán trách vì sao hôm nay người ta lại giẫm lên cậu.\r\n                         (Bạn chỉ sống có một lần, Nhiều tác giả, NXB Trẻ, 2018, tr.90,91)\r\nThực hiện yêu cầu:\r\n     Ý nghĩa của hai hình tượng nhân vật đá cẩm thạch và tượng cẩm thạch là gì? Anh/ chị trả lời câu hỏi bằng cách viết bài văn nghị luận (khoảng 500 chữ).\r\n\r\n",
-        "points": 10,
-        "suggested_answer": "chấm tự do"
-      }
-    ]
-  },
-  {
-    "id": "d0502e06-5f91-45e0-8203-80affc4b0eac",
-    "title": "Đề ôn luyện giữa kì 1 môn văn (đề số 1)",
-    "description": "ĐỀ KIỂM TRA GIỮA HỌC KÌ I\r\nMôn: Ngữ văn lớp 8; Năm học 2025 - 2026\r\nThời gian làm bài: 90 phút - Không kể thời gian phát đề",
-    "type": "essay",
-    "teacher_id": "teacher_003",
-    "created_at": "28/12/2025 10:08",
-    "time_limit": 90,
-    "subject": "Văn",
-    "grade": "8",
-    "status": "active",
-    "essay_questions": [
-      {
-        "id": 1,
-        "question": "Bài học về việc đón nhận thành công luôn thật dễ hiểu và dễ thực hiện. Nhưng đối mặt với thất bại, nhất là thất bại đầu đời, lại là điều không hề dễ dàng. Với tất cả mọi người, thất bại - nhất là thất bại trong các mối quan hệ - thường vẫn tạo ra những tổn thương sâu sắc. Điều này càng trở nên nặng nề đối với các bạn trẻ. Nhưng bạn có biết rằng tất cả chúng ta đều có quyền được khóc? Vậy nên nếu bạn đang cảm thấy cô đơn, tuyệt vọng thì hãy cho phép mình được khóc. Hãy để những giọt nước mắt ấm nồng xoa dịu trái tim đang thổn thức của bạn. Và hãy tin rằng ở đâu đó, có một người nào đó vẫn đang sẵn lòng kề vai cho bạn tựa, muốn được ôm bạn vào lòng và lau khô những giọt nước mắt của bạn... Muốn nhìn thấy cầu vồng, ta phải đi qua cơn mưa... Vì thế, hãy tin ngày mai nắng sẽ lên, và cuộc đời lại sẽ ươm hồng những ước mơ của bạn, một khi bạn còn giữ trong lòng ánh sáng của niềm tin.\r\n(Theo Hạt giống tâm hồn dành cho tuổi teen, tập 2 - Nhiều tác giả, NXB Tổng hợp TP. Hồ Chí Minh, 2012, tr.02)\r\nThực hiện yêu cầu:\r\nTừ văn bản trên, anh/ chị viết một bài văn nghị luận bàn về ý nghĩa của niềm tin trong cuộc sống (khoảng 500 chữ).\r\n\r\n",
-        "points": 10,
-        "suggested_answer": "chấm theo ý bạn"
-      }
-    ]
-  },
-  {
-    "id": "c9b5e001-5007-47e9-ab2a-2709215999bc",
-    "title": "test",
-    "description": "test",
+    "id": "69e8fa27-e1e6-481f-95a5-27d1a510208e",
+    "title": "Ôn tập sinh học HK1",
+    "description": "các bạn hoàn thành bài tập đúng hẹn",
     "type": "multiple_choice",
-    "teacher_id": "teacher_003",
-    "created_at": "26/12/2025 01:10",
-    "time_limit": 10,
+    "teacher_id": "teacher_001",
+    "created_at": "30/12/2025 21:02",
+    "time_limit": 30,
+    "subject": "Sinh Học",
+    "grade": "8",
+    "status": "active",
+    "questions": [
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 1,
+        "options": [
+          "A. Hệ vận động",
+          "B. Hệ tiêu hóa",
+          "C. Hệ thần kinh",
+          "D. Hệ tuần hoàn"
+        ],
+        "question": "Bộ phận nào của cơ thể thực hiện chức năng tiếp nhận kích thích và điều khiển các hoạt động phản ứng?"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 2,
+        "options": [
+          "A. Gan",
+          "B. Ruột non",
+          "C. Phổi",
+          "D. Tim"
+        ],
+        "question": "Cơ quan nào là nơi trao đổi khí giữa cơ thể và môi trường ngoài?"
+      },
+      {
+        "correct_answer": "A",
+        "explanation": "",
+        "id": 3,
+        "options": [
+          "A. Neuron (tế bào thần kinh)",
+          "B. Tế bào máu",
+          "C. Tế bào biểu bì",
+          "D. Tế bào cơ"
+        ],
+        "question": "Đơn vị cấu tạo và chức năng của hệ thần kinh là:"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 4,
+        "options": [
+          "A. Lực co bóp cơ tim",
+          "B. Áp lực của máu lên thành mạch",
+          "C. Độ nhớt của máu",
+          "D. Nhịp tim đập mỗi phút"
+        ],
+        "question": "Huyết áp là gì?"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "huyết tương và các tế bào máu",
+        "id": 5,
+        "options": [
+          "A. 1",
+          "B. 2",
+          "C. 3",
+          "D. 4"
+        ],
+        "question": "Máu gồm có mấy thành phần chính?"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 6,
+        "options": [
+          "A. Gan",
+          "B. Não",
+          "C. Tim",
+          "D. Phổi"
+        ],
+        "question": "Máu được bơm đi trong cơ thể nhờ cơ quan nào?"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 7,
+        "options": [
+          "A. Dạ dày",
+          "B. Ruột non",
+          "C. Ruột già",
+          "D. Thực quản"
+        ],
+        "question": "Bộ phận nào là nơi tiêu hóa và hấp thụ chất dinh dưỡng chủ yếu?"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 8,
+        "options": [
+          "A. Sự di chuyển của cơ thể",
+          "B. Hành động tự động, không cần điều khiển",
+          "C. Phản ứng của cơ thể trả lời kích thích",
+          "D. Hành vi có ý thức"
+        ],
+        "question": "Phản xạ là gì?"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 9,
+        "options": [
+          "A. Khí quản",
+          "B. Miệng",
+          "C. Mũi",
+          "D. Thanh quản"
+        ],
+        "question": "Trong hệ hô hấp, khí O₂ đi vào cơ thể qua:"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 10,
+        "options": [
+          "A. Tủy sống",
+          "B. Não bộ",
+          "C. Tiểu não",
+          "D. Gan"
+        ],
+        "question": "Bộ phận nào là trung tâm điều khiển mọi hoạt động của cơ thể?"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 11,
+        "options": [
+          "A. Tiêu hóa thức ăn",
+          "B. Hô hấp",
+          "C. Vận động và di chuyển",
+          "D. Tuần hoàn máu"
+        ],
+        "question": "Hệ xương và hệ cơ phối hợp giúp cơ thể thực hiện:"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 12,
+        "options": [
+          "A. Cơ quan vận động",
+          "B. Cơ quan dinh dưỡng",
+          "C. Cơ quan giác quan",
+          "D. Cơ quan nội tiết"
+        ],
+        "question": "Tiếp nhận thông tin từ môi trường ngoài thông qua:"
+      },
+      {
+        "correct_answer": "A",
+        "explanation": "",
+        "id": 13,
+        "options": [
+          "A. Hệ thần kinh trung ương",
+          "B. Hệ thần kinh vận động",
+          "C. Hệ thần kinh tự chủ",
+          "D. Hệ thần kinh sinh dưỡng"
+        ],
+        "question": "Tủy sống thuộc:"
+      },
+      {
+        "correct_answer": "A",
+        "explanation": "",
+        "id": 14,
+        "options": [
+          "A. Chia nhỏ thức ăn thành các chất đơn giản để hấp thụ",
+          "B. Thải chất độc ra ngoài",
+          "C. Vận chuyển máu",
+          "D. Tạo năng lượng"
+        ],
+        "question": "Quá trình tiêu hóa là gì?"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 15,
+        "options": [
+          "A. Phổi",
+          "B. Gan",
+          "C. Dạ dày",
+          "D. Tụy"
+        ],
+        "question": "Cơ quan nào dự trữ đường và giải độc cho cơ thể?"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 16,
+        "options": [
+          "A. Cơ hoành nâng lên, phổi co lại",
+          "B. Cơ hoành hạ xuống, lồng ngực nở rộng",
+          "C. Lồng ngực hạ xuống",
+          "D. Phổi xẹp lại"
+        ],
+        "question": "Động tác hít vào xảy ra khi:"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 17,
+        "options": [
+          "A. CO₂",
+          "B. O₂",
+          "C. Nước",
+          "D. Hemoglobin"
+        ],
+        "question": "Máu đỏ tươi có nhiều:"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 18,
+        "options": [
+          "A. 2",
+          "B. 3",
+          "C. 4",
+          "D. 5"
+        ],
+        "question": "Tim có bao nhiêu ngăn?"
+      },
+      {
+        "correct_answer": "A",
+        "explanation": "",
+        "id": 19,
+        "options": [
+          "A. Điều hòa hoocmôn, ảnh hưởng sự phát triển",
+          "B. Truyền tín hiệu điện",
+          "C. Tạo kháng thể",
+          "D. Lọc máu"
+        ],
+        "question": "Tuyến nội tiết có vai trò:"
+      },
+      {
+        "correct_answer": "D",
+        "explanation": "",
+        "id": 20,
+        "options": [
+          "A. Thanh quản",
+          "B. Khí quản",
+          "C. Màng phổi",
+          "D. Hốc mũi"
+        ],
+        "question": "Bộ phận nào tiếp nhận dị vật, lọc bụi khi hít thở?"
+      }
+    ]
+  },
+  {
+    "id": "8761222d-aa99-4f53-828f-1cdbfa969a4d",
+    "title": "Ôn tập môn lịch sử",
+    "description": "các bạn có 30' làm bài",
+    "type": "multiple_choice",
+    "teacher_id": "teacher_001",
+    "created_at": "30/12/2025 20:58",
+    "time_limit": 30,
+    "subject": "Lịch Sử",
+    "grade": "9",
+    "status": "active",
+    "questions": [
+      {
+        "correct_answer": "A",
+        "explanation": "",
+        "id": 1,
+        "options": [
+          "A. Lênin",
+          "B. Xtalin",
+          "C. Mác",
+          "D. Ăng-ghen"
+        ],
+        "question": "Cách mạng tháng Mười Nga (1917) nổ ra dưới sự lãnh đạo của ai?"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 2,
+        "options": [
+          "A. 1935",
+          "B. 1937",
+          "C. 1939",
+          "D. 1941"
+        ],
+        "question": "Chiến tranh thế giới thứ hai bắt đầu vào năm nào?"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 3,
+        "options": [
+          "A. 22/12/1944",
+          "B. 9/3/1945",
+          "C. 2/9/1945",
+          "D. 23/9/1945"
+        ],
+        "question": "Nhật đảo chính Pháp ở Đông Dương vào ngày nào?"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 4,
+        "options": [
+          "A. Khởi nghĩa Bắc Sơn",
+          "B. Cách mạng Tháng Tám năm 1945 thành công",
+          "C. Chiến thắng Điện Biên Phủ",
+          "D. Tuyên bố chống Mỹ"
+        ],
+        "question": "Sự kiện nào mở ra kỷ nguyên độc lập của dân tộc Việt Nam?"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 5,
+        "options": [
+          "A. 22/12/1944",
+          "B. 7/5/1954",
+          "C. 2/9/1945",
+          "D. 19/12/1946"
+        ],
+        "question": "Nước Việt Nam Dân chủ Cộng hòa được thành lập ngày:"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 6,
+        "options": [
+          "A. Trường Chinh",
+          "B. Phạm Văn Đồng",
+          "C. Hồ Chí Minh",
+          "D. Võ Nguyên Giáp"
+        ],
+        "question": "Chủ tịch nước đầu tiên của nước Việt Nam Dân chủ Cộng hòa là:"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 7,
+        "options": [
+          "A. 19/8/1945",
+          "B. 23/9/1945",
+          "C. 7/5/1954",
+          "D. 30/4/1975"
+        ],
+        "question": "Thực dân Pháp quay lại xâm lược nước ta lần thứ hai vào:"
+      },
+      {
+        "correct_answer": "A",
+        "explanation": "",
+        "id": 8,
+        "options": [
+          "A. 19/12/1946",
+          "B. 2/9/1945",
+          "C. 30/4/1975",
+          "D. 1/5/1954"
+        ],
+        "question": "Toàn quốc kháng chiến chống Pháp bùng nổ ngày:"
+      },
+      {
+        "correct_answer": "D",
+        "explanation": "",
+        "id": 9,
+        "options": [
+          "A. 1951",
+          "B. 1952",
+          "C. 1953",
+          "D. 1954"
+        ],
+        "question": "Chiến thắng Điện Biên Phủ diễn ra năm:"
+      },
+      {
+        "correct_answer": "A",
+        "explanation": "",
+        "id": 10,
+        "options": [
+          "A. Chia Việt Nam thành hai miền",
+          "B. Nhật phải đầu hàng",
+          "C. Giải phóng hoàn toàn miền Nam",
+          "D. Thành lập ASEAN"
+        ],
+        "question": "Hiệp định Giơ-ne-vơ năm 1954 về Đông Dương quy định:"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 11,
+        "options": [
+          "A. 1954–1960",
+          "B. 1961–1965",
+          "C. 1965–1968",
+          "D. 1968–1973"
+        ],
+        "question": "Mỹ tiến hành chiến lược “Chiến tranh đặc biệt” ở miền Nam vào thời kỳ:"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 12,
+        "options": [
+          "A. Tây Nguyên",
+          "B. Bến Tre",
+          "C. Hà Nội",
+          "D. Sài Gòn"
+        ],
+        "question": "“Đồng khởi” bùng nổ đầu tiên ở đâu?"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 13,
+        "options": [
+          "A. 1967",
+          "B. 1968",
+          "C. 1969",
+          "D. 1970"
+        ],
+        "question": "Cuộc Tổng tiến công và nổi dậy Tết Mậu Thân diễn ra năm:"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 14,
+        "options": [
+          "A. Mỹ rút quân về nước",
+          "B. Chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam",
+          "C. Cách mạng Tháng Tám thành công",
+          "D. Bầu cử quốc hội"
+        ],
+        "question": "Hiệp định Paris 1973 đánh dấu:"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 15,
+        "options": [
+          "A. 7/5/1954",
+          "B. 30/4/1975",
+          "C. 2/9/1945",
+          "D. 19/12/1946"
+        ],
+        "question": "Chiến thắng giải phóng hoàn toàn miền Nam, thống nhất đất nước diễn ra:"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 16,
+        "options": [
+          "A. Phát triển công nghiệp",
+          "B. Hàn gắn vết thương chiến tranh, thống nhất đất nước",
+          "C. Mở cửa kinh tế",
+          "D. Hội nhập quốc tế"
+        ],
+        "question": "Sau 1975, nhiệm vụ cấp bách nhất của Việt Nam là:"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 17,
+        "options": [
+          "A. IV – 1976",
+          "B. V – 1982",
+          "C. VI – 1986",
+          "D. VII – 1991"
+        ],
+        "question": "Công cuộc đổi mới ở Việt Nam bắt đầu từ Đại hội Đảng lần thứ:"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 18,
+        "options": [
+          "A. 1965",
+          "B. 1967",
+          "C. 1975",
+          "D. 1986"
+        ],
+        "question": "Tổ chức ASEAN thành lập năm:"
+      },
+      {
+        "correct_answer": "A",
+        "explanation": "",
+        "id": 19,
+        "options": [
+          "A. 1995",
+          "B. 1997",
+          "C. 1999",
+          "D. 2000"
+        ],
+        "question": "Việt Nam chính thức gia nhập ASEAN năm:"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 20,
+        "options": [
+          "A. Anh",
+          "B. Pháp",
+          "C. Liên Xô",
+          "D. Nhật Bản"
+        ],
+        "question": "Nước giữ vai trò quyết định trong việc đánh bại phát xít Đức trong Thế chiến II:"
+      }
+    ]
+  },
+  {
+    "id": "d046a6a4-0bf5-4ad9-8bac-04b3995a28fb",
+    "title": "Kiểm tra toán",
+    "description": "các bạn nộp bài hạn đúng hạn",
+    "type": "multiple_choice",
+    "teacher_id": "teacher_001",
+    "created_at": "30/12/2025 20:55",
+    "time_limit": 30,
     "subject": "Toán",
     "grade": "7",
     "status": "active",
@@ -210,6 +638,220 @@
           "D. 25%"
         ],
         "question": "Tìm phần trăm của 25 so với 100:"
+      }
+    ]
+  },
+  {
+    "id": "a0e4a597-6b43-4693-86f6-3ecb7717c7a3",
+    "title": "Kiểm tra tiếng anh 15 phút",
+    "description": "các bạn làm bài kiểm tra đầy đủ",
+    "type": "multiple_choice",
+    "teacher_id": "teacher_001",
+    "created_at": "30/12/2025 20:51",
+    "time_limit": 15,
+    "subject": "Tiếng Anh",
+    "grade": "8",
+    "status": "active",
+    "questions": [
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 1,
+        "options": [
+          "A. go",
+          "B. goes",
+          "C. going",
+          "D. to go"
+        ],
+        "question": "Choose the best answer:My sister usually ______ to school by bike."
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 2,
+        "options": [
+          "A. I’m fine, thanks.",
+          "B. I’m 17 years old.",
+          "C. Nice to meet you.",
+          "D. See you later."
+        ],
+        "question": "\"How old are you?\" – \"______\""
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 3,
+        "options": [
+          "A. study",
+          "B. studied",
+          "C. studies",
+          "D. studying"
+        ],
+        "question": "She ______ English every day."
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 4,
+        "options": [
+          "A. read",
+          "B. tea",
+          "C. head",
+          "D. sea"
+        ],
+        "question": "Which word has a different pronunciation of the underlined part?"
+      },
+      {
+        "correct_answer": "A",
+        "explanation": "",
+        "id": 5,
+        "options": [
+          "A. in",
+          "B. on",
+          "C. at",
+          "D. for"
+        ],
+        "question": "We often play football ______ the afternoon."
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 6,
+        "options": [
+          "A. a",
+          "B. an",
+          "C. the",
+          "D. no article"
+        ],
+        "question": "My father is ______ engineer."
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 7,
+        "options": [
+          "A. is",
+          "B. do",
+          "C. does",
+          "D. are"
+        ],
+        "question": "What time ______ the lesson start?"
+      },
+      {
+        "correct_answer": "B",
+        "explanation": "",
+        "id": 8,
+        "options": [
+          "A. All right",
+          "B. You’re welcome",
+          "C. Yes, please",
+          "D. Not at all"
+        ],
+        "question": "“Thank you very much.” – “______”"
+      },
+      {
+        "correct_answer": "C",
+        "explanation": "",
+        "id": 9,
+        "options": [
+          "A. watched",
+          "B. are watching",
+          "C. were watching",
+          "D. watch"
+        ],
+        "question": "They ______ TV when their mom came home."
+      },
+      {
+        "correct_answer": "D",
+        "explanation": "",
+        "id": 10,
+        "options": [
+          "A. tall",
+          "B. taller",
+          "C. most tall",
+          "D. tallest"
+        ],
+        "question": "He is the ______ student in his class."
+      }
+    ]
+  },
+  {
+    "id": "de6e2e12-0d90-47f8-afb9-411fa7038367",
+    "title": "Đề ôn luyện giữa kì 1 môn văn (đề số 4)",
+    "description": "ĐỀ KIỂM TRA GIỮA HỌC KÌ I\r\nMôn: Ngữ văn lớp 8; Năm học 2025 - 2026\r\n\r\nThời gian làm bài: 90 phút - Không kể thời gian phát đề",
+    "type": "essay",
+    "teacher_id": "teacher_003",
+    "created_at": "28/12/2025 10:13",
+    "time_limit": 90,
+    "subject": "Văn",
+    "grade": "8",
+    "status": "active",
+    "essay_questions": [
+      {
+        "id": 1,
+        "question": "Viết bài văn phân tích bài thơ Chiều hôm nhớ nhà của Bà Huyện Thanh Quan.\r\n",
+        "points": 10,
+        "suggested_answer": "hân tích, áp dụng phương thức biểu đạt tự sự kết hợp linh hoạt các phương thức biểu đạt khác.…\r\n\r\nCách giải:\r\n\r\nVề kỹ năng, hình thức:\r\n\r\n- Học sinh viết đúng kiểu bài tự sự, biết kết hợp linh hoạt các phương thức biểu đạt.\r\n\r\n- Hành văn, diễn đạt trong sáng, kết cấu bài hoàn chỉnh, chặt chẽ. Không mắc lỗi thông thường về chính tả, ngữ pháp.\r\n\r\nVề nội dung:\r\n\r\n1. Mở bài: Giới thiệu khái quát về Bà Huyện Thanh Quan (những nét chính về con người, cuộc đời, sự nghiệp sáng tác,…).\r\n\r\nGiới thiệu khái quát về bài thơ Chiều hôm nhớ nhà (hoàn cảnh sáng tác hoặc tóm tắt nội dung)\r\n\r\n2. Thân bài\r\n\r\n- Nội dung:\r\n\r\n+ Ở bài thơ, ta bắt gặp một quang cảnh buồn, hoang vắng, cô tịch. Đó là cảnh buổi hoàng hôn tím sẫm, cái khoảng không gian và thời gian buồn, gợi nhớ nhất trong một ngày.\r\n\r\n+ Xuất hiện hình ảnh con người nhưng chỉ thoáng bóng thôi, và quang cảnh chỉ có thế. Đó là những người dân lao động nghèo, vất vả làm ăn, sinh hoạt của họ thật tẻ nhạt, thiếu sinh động.\r\n\r\n+ Bà luôn hoài cổ để chối bỏ thực tại và bày tỏ sự chán ghét thực tại. Đó là nỗi nhớ nước, nhớ nhà bà luôn giấu kín trong lòng.\r\n\r\n+ Trước cảnh, bà bộc lộ được niềm tâm sự của mình, một tâm sự hoài cổ, đầy nuối tiếc, muốn níu giữ những kỉ niệm xa xưa.\r\n\r\n- Nghệ thuật\r\n\r\n+ Bài thơ đã đạt đến sự chuẩn mực trong việc sử dụng thể thơ Đường luật.\r\n\r\n+ Nghệ thuật tả cảnh ngụ tình được sử dụng tài năng và đem đến hiệu quả nghệ thuật to lớn.\r\n\r\n+ Nghệ thuật đảo ngữ, chơi chữ cùng việc sử dụng các từ láy.\r\n\r\n3. Kết bài: Khái quát những nét đặc sắc về nội dung và nghệ thuật của bài thơ Chiều hôm nhớ nhà và cảm nghĩ của em về bài thơ.\r\n"
+      }
+    ]
+  },
+  {
+    "id": "03a6a06a-c35b-4df2-b40c-bb8732c5bcfb",
+    "title": "Đề ôn luyện giữa kì 1 môn văn (đề số 3)",
+    "description": "ĐỀ KIỂM TRA GIỮA HỌC KÌ I\r\nMôn: Ngữ văn lớp 8; Năm học 2025 - 2026\r\n\r\nThời gian làm bài: 90 phút - Không kể thời gian phát đề",
+    "type": "essay",
+    "teacher_id": "teacher_003",
+    "created_at": "28/12/2025 10:12",
+    "time_limit": 90,
+    "subject": "Văn",
+    "grade": "8",
+    "status": "active",
+    "essay_questions": [
+      {
+        "id": 1,
+        "question": "Viết bài văn ghi lại cảm nghĩ của em về một bài thơ mà em yêu thích\r\n\r\n",
+        "points": 10,
+        "suggested_answer": "chấm tự do"
+      }
+    ]
+  },
+  {
+    "id": "2a4dcc6b-0933-45f8-9831-cca269c96a7b",
+    "title": "Đề ôn luyện giữa kì 1 môn văn (đề số 2)",
+    "description": "ĐỀ KIỂM TRA GIỮA HỌC KÌ I\r\nMôn: Ngữ văn lớp 8; Năm học 2025 - 2026\r\n\r\nThời gian làm bài: 90 phút - Không kể thời gian phát đề",
+    "type": "essay",
+    "teacher_id": "teacher_003",
+    "created_at": "28/12/2025 10:11",
+    "time_limit": 90,
+    "subject": "Văn",
+    "grade": "8",
+    "status": "active",
+    "essay_questions": [
+      {
+        "id": 1,
+        "question": "\r\nMột viện bảo tàng được lát đá cẩm thạch rất tinh tế và ngay chính giữa sảnh ngự một bức tượng cẩm thạch khổng lồ. Du khách từ khắp nơi trên thế giới đến đây đều trầm trồ trước bức tượng cẩm thạch lộng lẫy này.\r\n       Đêm nọ, đá cẩm thạch nói với tượng cẩm thạch.\r\n       Đá: Này tượng, như thế là không công bằng đâu nhé. Thật là bất công! Tại sao mọi người tới đây đều giẫm lên tôi trong khi họ ngước mắt ngưỡng mộ cậu?\r\n       Tượng: Đá thân mến, cậu có nhớ rằng chúng ta đều sinh ra từ một mỏ đá không?\r\n       Đá: Đúng vậy! Chính điều đó lại càng làm tớ thấy bất công hơn. Chúng ta sinh ra từ một mỏ nhưng lại được đối xử khác nhau. Bất công làm sao!\r\n       Tượng: Rồi cậu có còn nhớ ngày mà nhà điêu khắc đẽo cậu nhưng cậu từ chối không để các dụng cụ đó đẽo gọt lên mình không?\r\n       Đá: Đúng thế, tớ vẫn nhớ […].\r\n       Tượng: Rồi thì ông ấy quyết định từ bỏ cậu và bắt đầu làm việc trên mình tớ. Tớ hiểu ngay rằng mình sẽ khác biệt sau những nỗ lực của ông ấy. Tớ không từ chối các dụng cụ. Thay vào đó, tớ chịu đựng đau đớn khi những dụng cụ đó gọt giũa vào thân mình.\r\n\r\n       Đá: Ừ…\r\n\r\n       Tượng: Cậu thân mến, đó là cái giá của mọi thứ trong cuộc sống. Vì cậu quyết định bỏ cuộc giữa chừng, cậu không thể oán trách vì sao hôm nay người ta lại giẫm lên cậu.\r\n                         (Bạn chỉ sống có một lần, Nhiều tác giả, NXB Trẻ, 2018, tr.90,91)\r\nThực hiện yêu cầu:\r\n     Ý nghĩa của hai hình tượng nhân vật đá cẩm thạch và tượng cẩm thạch là gì? Anh/ chị trả lời câu hỏi bằng cách viết bài văn nghị luận (khoảng 500 chữ).\r\n\r\n",
+        "points": 10,
+        "suggested_answer": "chấm tự do"
+      }
+    ]
+  },
+  {
+    "id": "d0502e06-5f91-45e0-8203-80affc4b0eac",
+    "title": "Đề ôn luyện giữa kì 1 môn văn (đề số 1)",
+    "description": "ĐỀ KIỂM TRA GIỮA HỌC KÌ I\r\nMôn: Ngữ văn lớp 8; Năm học 2025 - 2026\r\nThời gian làm bài: 90 phút - Không kể thời gian phát đề",
+    "type": "essay",
+    "teacher_id": "teacher_003",
+    "created_at": "28/12/2025 10:08",
+    "time_limit": 90,
+    "subject": "Văn",
+    "grade": "8",
+    "status": "active",
+    "essay_questions": [
+      {
+        "id": 1,
+        "question": "Bài học về việc đón nhận thành công luôn thật dễ hiểu và dễ thực hiện. Nhưng đối mặt với thất bại, nhất là thất bại đầu đời, lại là điều không hề dễ dàng. Với tất cả mọi người, thất bại - nhất là thất bại trong các mối quan hệ - thường vẫn tạo ra những tổn thương sâu sắc. Điều này càng trở nên nặng nề đối với các bạn trẻ. Nhưng bạn có biết rằng tất cả chúng ta đều có quyền được khóc? Vậy nên nếu bạn đang cảm thấy cô đơn, tuyệt vọng thì hãy cho phép mình được khóc. Hãy để những giọt nước mắt ấm nồng xoa dịu trái tim đang thổn thức của bạn. Và hãy tin rằng ở đâu đó, có một người nào đó vẫn đang sẵn lòng kề vai cho bạn tựa, muốn được ôm bạn vào lòng và lau khô những giọt nước mắt của bạn... Muốn nhìn thấy cầu vồng, ta phải đi qua cơn mưa... Vì thế, hãy tin ngày mai nắng sẽ lên, và cuộc đời lại sẽ ươm hồng những ước mơ của bạn, một khi bạn còn giữ trong lòng ánh sáng của niềm tin.\r\n(Theo Hạt giống tâm hồn dành cho tuổi teen, tập 2 - Nhiều tác giả, NXB Tổng hợp TP. Hồ Chí Minh, 2012, tr.02)\r\nThực hiện yêu cầu:\r\nTừ văn bản trên, anh/ chị viết một bài văn nghị luận bàn về ý nghĩa của niềm tin trong cuộc sống (khoảng 500 chữ).\r\n\r\n",
+        "points": 10,
+        "suggested_answer": "chấm theo ý bạn"
       }
     ]
   }

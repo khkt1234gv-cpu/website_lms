@@ -40,9 +40,6 @@ os.makedirs(CLASS_ACTIVITY_IMAGES, exist_ok=True)
 # Định nghĩa các extension được phép
 #############
 
-# ==========================================
-# HỆ THỐNG KIỂM TRA CÓ GÌ PHẢI LO
-# ==========================================
 
 import hashlib
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -1132,7 +1129,7 @@ Dưới đây là báo cáo các tổ:
             """
 
         # HTML PROMPT ĐẦY ĐỦ
-        html_prompt = f"""Tạo file HTML HOÀN CHỈNH cho infographic kế hoạch tuần học lớp 8A4 - THCS Cẩm Phả.
+        html_prompt = f"""Tạo file HTML HOÀN CHỈNH cho infographic kế hoạch tuần học lớp 8A9 - THCS Cẩm Phả.
 
 YÊU CẦU BẮT BUỘC:
 - File HTML hoàn chỉnh: <!DOCTYPE html>, <html lang="vi">, <head> với <meta charset="UTF-8">

@@ -1,17 +1,158 @@
 [
   {
-    "id": "a69b4971-e9c1-43a3-be05-015dd3c628c8",
-    "week_name": "test",
-    "description": "1",
-    "created_at": "28/12/2025 21:23",
-    "status": "collecting",
+    "id": "4393b3cc-c73b-47f9-87af-65bc123ab208",
+    "week_name": "tuần 10",
+    "description": "",
+    "created_at": "30/12/2025 21:50",
+    "status": "analyzed",
     "groups": {
-      "to_1": [],
-      "to_2": [],
-      "to_3": [],
-      "to_4": [],
-      "giao_vien": []
+      "to_1": [
+        {
+          "id": "4d58a95c-35f5-4ce1-be81-2948c46fa945",
+          "filename": "4d58a95c-35f5-4ce1-be81-2948c46fa945_t10.1.jpg",
+          "uploaded_at": "30/12/2025 21:50"
+        }
+      ],
+      "to_2": [
+        {
+          "id": "478556ca-ac1b-4c51-8215-9aa202b42315",
+          "filename": "478556ca-ac1b-4c51-8215-9aa202b42315_T2.10.jpg",
+          "uploaded_at": "30/12/2025 21:50"
+        }
+      ],
+      "to_3": [
+        {
+          "id": "be6c2f7a-b767-4a37-a3d7-eb46d61e3c2b",
+          "filename": "be6c2f7a-b767-4a37-a3d7-eb46d61e3c2b_t3.10.jpg",
+          "uploaded_at": "30/12/2025 21:50"
+        }
+      ],
+      "to_4": [
+        {
+          "id": "2f3ee0b8-818c-4487-b174-a1348defe9ef",
+          "filename": "2f3ee0b8-818c-4487-b174-a1348defe9ef_T4.10.jpg",
+          "uploaded_at": "30/12/2025 21:50"
+        }
+      ],
+      "giao_vien": [
+        {
+          "id": "249a4686-61b9-4b69-ada8-a9e7ee4c70c4",
+          "filename": "249a4686-61b9-4b69-ada8-a9e7ee4c70c4_tgv.10.PNG",
+          "uploaded_at": "30/12/2025 21:50"
+        }
+      ]
     },
-    "ai_analysis": null
+    "ai_analysis": "{\n\"tong_quan\": \"Tuần 10 đã kết thúc với nhiều nỗ lực đáng ghi nhận từ các tổ. Nhìn chung, tinh thần học tập và duy trì nề nếp lớp học được phát huy tích cực ở đa số các bạn. Tuy nhiên, vẫn còn một số tồn tại nhỏ về kỷ luật giờ học, chuẩn bị bài và nội quy trang phục cần được cải thiện trong các tuần tiếp theo. Đặc biệt, Tổ 3 và Tổ 4 đã thể hiện sự tiến bộ vượt trội và đạt điểm thi đua cao nhất tuần.\",\n\"thoi_khoa_bieu\": [\n{\n\"thu\": \"Thứ 2\",\n\"tiet_1\": \"HDTN 1 (T. Linh)\",\n\"tiet_2\": \"Sử (T. Thắm)\",\n\"tiet_3\": \"Anh (Mai Anh)\",\n\"tiet_4\": \"Văn (Thủy)\",\n\"tiet_5\": \"GDTC (Th.Linh)\",\n\"do_dong_phuc\": \"Áo trắng, Đồng phục thể dục\"\n},\n{\n\"thu\": \"Thứ 3\",\n\"tiet_1\": \"HDTN 2 (T. Linh)\",\n\"tiet_2\": \"Văn (Thủy)\",\n\"tiet_3\": \"Văn (Thủy)\",\n\"tiet_4\": \"CN (P. Dũng)\",\n\"tiet_5\": \"Anh (Mai Anh)\",\n\"do_dong_phuc\": \"Áo trắng, Quần tây\"\n},\n{\n\"thu\": \"Thứ 4\",\n\"tiet_1\": \"HDTN 3 (T. Linh)\",\n\"tiet_2\": \"KHTN (Hoá - T. Trang)\",\n\"tiet_3\": \"NT Âm nhạc (Vui)\",\n\"tiet_4\": \"KHTN (Lý - Phượng)\",\n\"tiet_5\": \"CN (P. Dũng)\",\n\"do_dong_phuc\": \"Áo trắng, Quần tây\"\n},\n{\n\"thu\": \"Thứ 5\",\n\"tiet_1\": \"Văn (Thủy)\",\n\"tiet_2\": \"Toán (T. Linh)\",\n\"tiet_3\": \"GDTC (Th.Linh)\",\n\"tiet_4\": \"CD (Hải)\",\n\"tiet_5\": \"Anh (Mai Anh)\",\n\"do_dong_phuc\": \"Áo trắng, Đồng phục thể dục\"\n},\n{\n\"thu\": \"Thứ 6\",\n\"tiet_1\": \"KHTN (Sinh - Huế)\",\n\"tiet_2\": \"Sử (T. Thắm)\",\n\"tiet_3\": \"Toán (T. Linh)\",\n\"tiet_4\": \"Địa (X. Linh)\",\n\"tiet_5\": \"SHL (T. Linh)\",\n\"do_dong_phuc\": \"Áo trắng, Quần tây\"\n}\n],\n\"danh_gia_chi_tiet\": {\n\"to_1\": {\n\"diem_manh\": \"Nhiều cá nhân thực hiện tốt nhiệm vụ, giữ vững nề nếp học tập cơ bản.\",\n\"diem_yeu\": \"Vẫn còn học sinh bị ghi sổ đầu bài, nói chuyện riêng và không học bài. Các ghi chép hàng ngày còn chưa đầy đủ, rõ ràng.\",\n\"xep_loai\": \"Tốt\",\n\"diem\": 9.0\n},\n\"to_2\": {\n\"diem_manh\": \"Đa số học sinh có ý thức tốt trong việc học tập và tham gia các hoạt động lớp.\",\n\"diem_yeu\": \"Tương tự Tổ 1, vẫn còn cá nhân vi phạm nội quy như nói chuyện và chưa chủ động trong học tập. Cần cải thiện việc theo dõi và ghi nhận hàng ngày.\",\n\"xep_loai\": \"Tốt\",\n\"diem\": 9.0\n},\n\"to_3\": {\n\"diem_manh\": \"Nhiều học sinh tích cực phát biểu, hăng hái xây dựng bài và nộp bài tập đầy đủ. Có tinh thần đoàn kết, chung tay xây dựng lớp.\",\n\"diem_yeu\": \"Một số cá nhân còn nói chuyện riêng trong giờ học và vi phạm quy định về trang phục.\",\n\"xep_loai\": \"Rất tốt\",\n\"diem\": 9.5\n},\n\"to_4\": {\n\"diem_manh\": \"Hầu hết học sinh có nề nếp tốt, trật tự và chủ động trong việc chuẩn bị sản phẩm cho các tiết kiểm tra. Đã có sự tiến bộ rõ rệt về ý thức tự giác.\",\n\"diem_yeu\": \"Vẫn còn học sinh quên vở bài tập và nói chuyện riêng trong giờ học.\",\n\"xep_loai\": \"Rất tốt\",\n\"diem\": 9.5\n}\n},\n\"nhan_xet_tuan_qua\": [\n{\n\"tieu_chi\": \"Ký luật giờ học\",\n\"danh_gia\": \"Đa số học sinh đã nghiêm túc, tập trung, nhưng vẫn còn tình trạng nói chuyện riêng và làm việc riêng trong giờ ở một vài cá nhân.\",\n\"xep_loai\": \"Khá\",\n\"icon\": \"📚\"\n},\n{\n\"tieu_chi\": \"Nội quy lớp\",\n\"danh_gia\": \"Hầu hết các bạn chấp hành tốt nội quy. Tuy nhiên, Tổ 3 có ghi nhận về trang phục chưa đúng quy định của một học sinh.\",\n\"xep_loai\": \"Khá\",\n\"icon\": \"👔\"\n},\n{\n\"tieu_chi\": \"Chuẩn bị bài vở\",\n\"danh_gia\": \"Nhiều bạn đã tích cực và đầy đủ. Song, Tổ 1 và Tổ 4 vẫn có học sinh không học bài, quên vở bài tập hoặc ghi chép chưa cẩn thận.\",\n\"xep_loai\": \"Trung bình\",\n\"icon\": \"📖\"\n},\n{\n\"tieu_chi\": \"Vệ sinh lớp học\",\n\"danh_gia\": \"Lớp học được giữ gìn vệ sinh tương đối tốt, không có ghi nhận cụ thể về vi phạm nghiêm trọng. Cần tiếp tục duy trì và nâng cao ý thức chung.\",\n\"xep_loai\": \"Tốt\",\n\"icon\": \"🧹\"\n}\n],\n\"phuong_huong_tuan_moi\": [\n\"Duy trì và nâng cao kỷ luật giờ học: Tập trung nghe giảng, không nói chuyện riêng, tích cực phát biểu xây dựng bài.\",\n\"Chuẩn bị bài vở đầy đủ, chủ động ôn tập kiến thức cũ và xem trước bài mới trước khi đến lớp. Đặc biệt lưu ý nộp bài tập đúng hạn và không quên vở.\",\n\"Nghiêm túc chấp hành nội quy lớp, đặc biệt là quy định về đồng phục, tác phong học sinh. Tuyệt đối không vi phạm trang phục.\",\n\"Tiếp tục giữ gìn vệ sinh lớp học và khu vực xung quanh sạch sẽ, sắp xếp bàn ghế gọn gàng.\",\n\"Khen tặng huy hiệu thi đua tuần cho tập thể Tổ 3 và Tổ 4 vì thành tích xuất sắc, đồng thời khen ngợi các cá nhân đạt điểm cao và có đóng góp tích cực trong tuần qua.\"\n]\n}",
+    "infographic_html": "/static/class_activity_infographics/4393b3cc-c73b-47f9-87af-65bc123ab208_infographic.html",
+    "analysis_data": {
+      "tong_quan": "Tuần 10 đã kết thúc với nhiều nỗ lực đáng ghi nhận từ các tổ. Nhìn chung, tinh thần học tập và duy trì nề nếp lớp học được phát huy tích cực ở đa số các bạn. Tuy nhiên, vẫn còn một số tồn tại nhỏ về kỷ luật giờ học, chuẩn bị bài và nội quy trang phục cần được cải thiện trong các tuần tiếp theo. Đặc biệt, Tổ 3 và Tổ 4 đã thể hiện sự tiến bộ vượt trội và đạt điểm thi đua cao nhất tuần.",
+      "thoi_khoa_bieu": [
+        {
+          "thu": "Thứ 2",
+          "tiet_1": "HDTN 1 (T. Linh)",
+          "tiet_2": "Sử (T. Thắm)",
+          "tiet_3": "Anh (Mai Anh)",
+          "tiet_4": "Văn (Thủy)",
+          "tiet_5": "GDTC (Th.Linh)",
+          "do_dong_phuc": "Áo trắng, Đồng phục thể dục"
+        },
+        {
+          "thu": "Thứ 3",
+          "tiet_1": "HDTN 2 (T. Linh)",
+          "tiet_2": "Văn (Thủy)",
+          "tiet_3": "Văn (Thủy)",
+          "tiet_4": "CN (P. Dũng)",
+          "tiet_5": "Anh (Mai Anh)",
+          "do_dong_phuc": "Áo trắng, Quần tây"
+        },
+        {
+          "thu": "Thứ 4",
+          "tiet_1": "HDTN 3 (T. Linh)",
+          "tiet_2": "KHTN (Hoá - T. Trang)",
+          "tiet_3": "NT Âm nhạc (Vui)",
+          "tiet_4": "KHTN (Lý - Phượng)",
+          "tiet_5": "CN (P. Dũng)",
+          "do_dong_phuc": "Áo trắng, Quần tây"
+        },
+        {
+          "thu": "Thứ 5",
+          "tiet_1": "Văn (Thủy)",
+          "tiet_2": "Toán (T. Linh)",
+          "tiet_3": "GDTC (Th.Linh)",
+          "tiet_4": "CD (Hải)",
+          "tiet_5": "Anh (Mai Anh)",
+          "do_dong_phuc": "Áo trắng, Đồng phục thể dục"
+        },
+        {
+          "thu": "Thứ 6",
+          "tiet_1": "KHTN (Sinh - Huế)",
+          "tiet_2": "Sử (T. Thắm)",
+          "tiet_3": "Toán (T. Linh)",
+          "tiet_4": "Địa (X. Linh)",
+          "tiet_5": "SHL (T. Linh)",
+          "do_dong_phuc": "Áo trắng, Quần tây"
+        }
+      ],
+      "danh_gia_chi_tiet": {
+        "to_1": {
+          "diem_manh": "Nhiều cá nhân thực hiện tốt nhiệm vụ, giữ vững nề nếp học tập cơ bản.",
+          "diem_yeu": "Vẫn còn học sinh bị ghi sổ đầu bài, nói chuyện riêng và không học bài. Các ghi chép hàng ngày còn chưa đầy đủ, rõ ràng.",
+          "xep_loai": "Tốt",
+          "diem": 9.0
+        },
+        "to_2": {
+          "diem_manh": "Đa số học sinh có ý thức tốt trong việc học tập và tham gia các hoạt động lớp.",
+          "diem_yeu": "Tương tự Tổ 1, vẫn còn cá nhân vi phạm nội quy như nói chuyện và chưa chủ động trong học tập. Cần cải thiện việc theo dõi và ghi nhận hàng ngày.",
+          "xep_loai": "Tốt",
+          "diem": 9.0
+        },
+        "to_3": {
+          "diem_manh": "Nhiều học sinh tích cực phát biểu, hăng hái xây dựng bài và nộp bài tập đầy đủ. Có tinh thần đoàn kết, chung tay xây dựng lớp.",
+          "diem_yeu": "Một số cá nhân còn nói chuyện riêng trong giờ học và vi phạm quy định về trang phục.",
+          "xep_loai": "Rất tốt",
+          "diem": 9.5
+        },
+        "to_4": {
+          "diem_manh": "Hầu hết học sinh có nề nếp tốt, trật tự và chủ động trong việc chuẩn bị sản phẩm cho các tiết kiểm tra. Đã có sự tiến bộ rõ rệt về ý thức tự giác.",
+          "diem_yeu": "Vẫn còn học sinh quên vở bài tập và nói chuyện riêng trong giờ học.",
+          "xep_loai": "Rất tốt",
+          "diem": 9.5
+        }
+      },
+      "nhan_xet_tuan_qua": [
+        {
+          "tieu_chi": "Ký luật giờ học",
+          "danh_gia": "Đa số học sinh đã nghiêm túc, tập trung, nhưng vẫn còn tình trạng nói chuyện riêng và làm việc riêng trong giờ ở một vài cá nhân.",
+          "xep_loai": "Khá",
+          "icon": "📚"
+        },
+        {
+          "tieu_chi": "Nội quy lớp",
+          "danh_gia": "Hầu hết các bạn chấp hành tốt nội quy. Tuy nhiên, Tổ 3 có ghi nhận về trang phục chưa đúng quy định của một học sinh.",
+          "xep_loai": "Khá",
+          "icon": "👔"
+        },
+        {
+          "tieu_chi": "Chuẩn bị bài vở",
+          "danh_gia": "Nhiều bạn đã tích cực và đầy đủ. Song, Tổ 1 và Tổ 4 vẫn có học sinh không học bài, quên vở bài tập hoặc ghi chép chưa cẩn thận.",
+          "xep_loai": "Trung bình",
+          "icon": "📖"
+        },
+        {
+          "tieu_chi": "Vệ sinh lớp học",
+          "danh_gia": "Lớp học được giữ gìn vệ sinh tương đối tốt, không có ghi nhận cụ thể về vi phạm nghiêm trọng. Cần tiếp tục duy trì và nâng cao ý thức chung.",
+          "xep_loai": "Tốt",
+          "icon": "🧹"
+        }
+      ],
+      "phuong_huong_tuan_moi": [
+        "Duy trì và nâng cao kỷ luật giờ học: Tập trung nghe giảng, không nói chuyện riêng, tích cực phát biểu xây dựng bài.",
+        "Chuẩn bị bài vở đầy đủ, chủ động ôn tập kiến thức cũ và xem trước bài mới trước khi đến lớp. Đặc biệt lưu ý nộp bài tập đúng hạn và không quên vở.",
+        "Nghiêm túc chấp hành nội quy lớp, đặc biệt là quy định về đồng phục, tác phong học sinh. Tuyệt đối không vi phạm trang phục.",
+        "Tiếp tục giữ gìn vệ sinh lớp học và khu vực xung quanh sạch sẽ, sắp xếp bàn ghế gọn gàng.",
+        "Khen tặng huy hiệu thi đua tuần cho tập thể Tổ 3 và Tổ 4 vì thành tích xuất sắc, đồng thời khen ngợi các cá nhân đạt điểm cao và có đóng góp tích cực trong tuần qua."
+      ]
+    },
+    "analyzed_at": "30/12/2025 21:51"
   }
 ]
